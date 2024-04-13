@@ -1,0 +1,938 @@
+[
+    {
+        "input": "ăn cây thịt",
+        "output": "cây ăn thịt"
+    },
+    {
+        "input": "thịt cây ăn",
+        "output": "cây ăn thịt"
+    },
+    {
+        "input": "cây ăn thịt",
+        "output": "cây ăn thịt"
+    },
+    {
+        "input": "rơi lầu phụ khi đó chết nữ người",
+        "output": "khi người phụ nữ đó rơi lầu chết"
+    },
+    {
+        "input": "lầu khi đó nữ người rơi phụ chết",
+        "output": "khi người phụ nữ đó rơi lầu chết"
+    },
+    {
+        "input": "chết nữ đó người rơi lầu khi phụ",
+        "output": "khi người phụ nữ đó rơi lầu chết"
+    },
+    {
+        "input": "với loài sống chung khác các có điểm thù những có những khác loài đặc thú nhưng xương",
+        "output": "nhưng khác với những loài có xương sống khác các loài thú có những điểm chung đặc thù"
+    },
+    {
+        "input": "những khác với xương loài nhưng những chung thú các loài có sống đặc thù có khác điểm",
+        "output": "nhưng khác với những loài có xương sống khác các loài thú có những điểm chung đặc thù"
+    },
+    {
+        "input": "loài khác khác điểm thù sống đặc có thú chung những các loài những với có nhưng xương",
+        "output": "nhưng khác với những loài có xương sống khác các loài thú có những điểm chung đặc thù"
+    },
+    {
+        "input": "cơ sữa có con máu phủ có phổi lông hô non mao nóng khắp và bằng bằng thể hấp nuôi",
+        "output": "có máu nóng có lông mao phủ khắp cơ thể hô hấp bằng phổi và nuôi con non bằng sữa"
+    },
+    {
+        "input": "bằng hấp và có phủ thể máu có lông khắp nuôi nóng non bằng phổi cơ mao sữa hô con",
+        "output": "có máu nóng có lông mao phủ khắp cơ thể hô hấp bằng phổi và nuôi con non bằng sữa"
+    },
+    {
+        "input": "bằng lông con khắp máu thể mao hô có nuôi sữa hấp bằng phủ có phổi và non cơ nóng",
+        "output": "có máu nóng có lông mao phủ khắp cơ thể hô hấp bằng phổi và nuôi con non bằng sữa"
+    },
+    {
+        "input": "người nhất hươu loài cả vốn động voi hiện vật mèo xuất cao địa cá cổ cầu lớn ở và chó loài xanh",
+        "output": "vốn xuất hiện ở loài người mèo chó hươu cao cổ và cả cá voi xanh  loài động vật lớn nhất địa cầu"
+    },
+    {
+        "input": "người hiện mèo vật cổ cầu và voi xuất ở cao địa cả động xanh vốn lớn loài cá nhất hươu loài chó",
+        "output": "vốn xuất hiện ở loài người mèo chó hươu cao cổ và cả cá voi xanh  loài động vật lớn nhất địa cầu"
+    },
+    {
+        "input": "voi lớn và động cổ cả vốn mèo cao cầu xuất xanh hiện địa loài cá hươu chó loài nhất ở vật người",
+        "output": "vốn xuất hiện ở loài người mèo chó hươu cao cổ và cả cá voi xanh  loài động vật lớn nhất địa cầu"
+    },
+    {
+        "input": "có cửa phẩm thực nhà đứng tôi năm cây nông thống để bằng trồng đó trên trại 2 thẳng hệ những sau nước xếp là những trồng chúng sổ trong",
+        "output": "2 năm sau đó chúng tôi có những nông trại trên cửa sổ là những hệ thống trồng cây bằng nước xếp thẳng đứng để trồng thực phẩm trong nhà"
+    },
+    {
+        "input": "trên phẩm nước nông để sổ sau đứng hệ cửa trại trong những đó nhà xếp tôi 2 cây những có trồng là thẳng thống chúng bằng thực trồng năm",
+        "output": "2 năm sau đó chúng tôi có những nông trại trên cửa sổ là những hệ thống trồng cây bằng nước xếp thẳng đứng để trồng thực phẩm trong nhà"
+    },
+    {
+        "input": "chúng có nước trồng trong 2 đứng sau nhà hệ phẩm bằng nông là trồng sổ thẳng để trại những thống xếp thực tôi trên cửa năm cây đó những",
+        "output": "2 năm sau đó chúng tôi có những nông trại trên cửa sổ là những hệ thống trồng cây bằng nước xếp thẳng đứng để trồng thực phẩm trong nhà"
+    },
+    {
+        "input": "môi tiếng vũ giữa reo eo của hàng lắc bà lư cổ như thép theo hò tuôn nắm đấm lưỡi bà",
+        "output": "lưỡi của bà như nắm đấm thép tuôn giữa hàng môi eo bà lắc lư theo tiếng hò reo cổ vũ"
+    },
+    {
+        "input": "reo tiếng bà eo của hàng bà theo thép như nắm cổ tuôn hò lắc vũ giữa lư môi lưỡi đấm",
+        "output": "lưỡi của bà như nắm đấm thép tuôn giữa hàng môi eo bà lắc lư theo tiếng hò reo cổ vũ"
+    },
+    {
+        "input": "của như bà giữa tuôn reo cổ vũ hàng eo lưỡi đấm hò tiếng theo bà lắc thép lư môi nắm",
+        "output": "lưỡi của bà như nắm đấm thép tuôn giữa hàng môi eo bà lắc lư theo tiếng hò reo cổ vũ"
+    },
+    {
+        "input": "vỗ tay",
+        "output": "vỗ tay"
+    },
+    {
+        "input": "tay vỗ",
+        "output": "vỗ tay"
+    },
+    {
+        "input": "tay vỗ",
+        "output": "vỗ tay"
+    },
+    {
+        "input": "nhiều màu sắc có nhộn tôi nó ý là nó vui",
+        "output": "ý tôi là nó có nhiều màu sắc nó vui nhộn"
+    },
+    {
+        "input": "nhiều nó vui màu là nó nhộn sắc ý có tôi",
+        "output": "ý tôi là nó có nhiều màu sắc nó vui nhộn"
+    },
+    {
+        "input": "tôi màu nhiều là sắc ý có nó vui nó nhộn",
+        "output": "ý tôi là nó có nhiều màu sắc nó vui nhộn"
+    },
+    {
+        "input": "tâm quan của sau đầu đến những thành và khuất bậc tôi những ở phố trong góc đại học sống sinh vật bắt",
+        "output": "và ở bậc sau đại học tôi bắt đầu quan tâm đến những sinh vật sống trong những góc khuất của thành phố"
+    },
+    {
+        "input": "tôi vật tâm góc phố học thành và quan những đại đầu khuất ở sống trong bắt bậc những sau của đến sinh",
+        "output": "và ở bậc sau đại học tôi bắt đầu quan tâm đến những sinh vật sống trong những góc khuất của thành phố"
+    },
+    {
+        "input": "đầu ở sinh đại đến quan sau bắt những trong tôi tâm phố và sống thành bậc vật góc của khuất những học",
+        "output": "và ở bậc sau đại học tôi bắt đầu quan tâm đến những sinh vật sống trong những góc khuất của thành phố"
+    },
+    {
+        "input": "trong năm dài 5 kéo",
+        "output": "kéo dài trong 5 năm"
+    },
+    {
+        "input": "trong kéo năm dài 5",
+        "output": "kéo dài trong 5 năm"
+    },
+    {
+        "input": "kéo 5 năm trong dài",
+        "output": "kéo dài trong 5 năm"
+    },
+    {
+        "input": "cùng bạn làm liệu thể phải mà là tôi gì có",
+        "output": "mà phải là liệu tôi có thể làm gì cùng bạn"
+    },
+    {
+        "input": "phải bạn mà là làm tôi cùng gì có liệu thể",
+        "output": "mà phải là liệu tôi có thể làm gì cùng bạn"
+    },
+    {
+        "input": "tôi cùng làm có là liệu bạn gì thể phải mà",
+        "output": "mà phải là liệu tôi có thể làm gì cùng bạn"
+    },
+    {
+        "input": "ngốc điều là đó rằng nhất mà nói từng họ ngu ông nói",
+        "output": "họ nói rằng đó là điều ngu ngốc nhất mà ông từng nói"
+    },
+    {
+        "input": "nhất ngu ngốc điều rằng nói đó ông nói họ là mà từng",
+        "output": "họ nói rằng đó là điều ngu ngốc nhất mà ông từng nói"
+    },
+    {
+        "input": "điều đó rằng ông họ nhất nói ngu là từng mà nói ngốc",
+        "output": "họ nói rằng đó là điều ngu ngốc nhất mà ông từng nói"
+    },
+    {
+        "input": "nhận rằng ra chúng có đo của phải không để sự mọi và chúng khiêm ta thước ta thứ tốn phải",
+        "output": "và chúng ta phải có sự khiêm tốn để nhận ra rằng chúng ta không phải thước đo của mọi thứ"
+    },
+    {
+        "input": "và phải sự ta nhận có chúng phải rằng chúng mọi để ra của khiêm tốn ta đo thứ không thước",
+        "output": "và chúng ta phải có sự khiêm tốn để nhận ra rằng chúng ta không phải thước đo của mọi thứ"
+    },
+    {
+        "input": "thước khiêm ta và tốn chúng có ra không để rằng nhận phải đo của chúng mọi phải thứ ta sự",
+        "output": "và chúng ta phải có sự khiêm tốn để nhận ra rằng chúng ta không phải thước đo của mọi thứ"
+    },
+    {
+        "input": "thấy nối cảnh ta trong ngày một đó lẽ có hữu việc não viễn nào sẽ bộ sở mạng của kết lưới chúng",
+        "output": "một ngày nào đó có lẽ chúng ta sẽ thấy viễn cảnh của việc sở hữu mạng lưới kết nối trong bộ não"
+    },
+    {
+        "input": "bộ sở có một kết thấy sẽ hữu trong nối cảnh chúng mạng việc ta nào viễn lưới lẽ đó của não ngày",
+        "output": "một ngày nào đó có lẽ chúng ta sẽ thấy viễn cảnh của việc sở hữu mạng lưới kết nối trong bộ não"
+    },
+    {
+        "input": "kết trong hữu ngày nào cảnh sở chúng sẽ đó bộ nối mạng thấy việc của lưới ta não lẽ có viễn một",
+        "output": "một ngày nào đó có lẽ chúng ta sẽ thấy viễn cảnh của việc sở hữu mạng lưới kết nối trong bộ não"
+    },
+    {
+        "input": "hình là sống tạo và thể ra các đó về mới việc",
+        "output": "và đó là về việc tạo ra các hình thể sống mới"
+    },
+    {
+        "input": "đó các thể hình sống mới về việc tạo ra và là",
+        "output": "và đó là về việc tạo ra các hình thể sống mới"
+    },
+    {
+        "input": "ra về thể là đó hình việc và mới tạo sống các",
+        "output": "và đó là về việc tạo ra các hình thể sống mới"
+    },
+    {
+        "input": "ta có xem điều thể xem phim một về đó ta đầu hơi bắt chúng có chút chúng chậm một đoạn thể",
+        "output": "chúng ta có thể bắt đầu xem một đoạn phim về điều đó chúng ta có thể xem hơi chậm một chút"
+    },
+    {
+        "input": "đoạn đó ta chậm về xem một có thể đầu ta xem thể có chút một chúng điều chúng hơi phim bắt",
+        "output": "chúng ta có thể bắt đầu xem một đoạn phim về điều đó chúng ta có thể xem hơi chậm một chút"
+    },
+    {
+        "input": "bắt chúng đó xem chậm có có về chúng ta thể đoạn xem một thể chút đầu phim ta hơi điều một",
+        "output": "chúng ta có thể bắt đầu xem một đoạn phim về điều đó chúng ta có thể xem hơi chậm một chút"
+    },
+    {
+        "input": "mã vật và và và khác loại mỗi con trội nhau là một chúng là lên nhân sẽ gen",
+        "output": "và chúng là một loại và mỗi con vật là khác nhau và mã gen trội sẽ nhân lên"
+    },
+    {
+        "input": "gen khác sẽ vật và nhau trội nhân là và chúng con mỗi lên là mã loại một và",
+        "output": "và chúng là một loại và mỗi con vật là khác nhau và mã gen trội sẽ nhân lên"
+    },
+    {
+        "input": "và con khác mỗi nhau là vật gen nhân và mã loại chúng là sẽ lên trội một và",
+        "output": "và chúng là một loại và mỗi con vật là khác nhau và mã gen trội sẽ nhân lên"
+    },
+    {
+        "input": "đâu nó biết luôn và ở đang trên được nó biển bãi",
+        "output": "và nó luôn biết được nó đang ở đâu trên bãi biển"
+    },
+    {
+        "input": "luôn đang nó và biển biết được nó trên bãi đâu ở",
+        "output": "và nó luôn biết được nó đang ở đâu trên bãi biển"
+    },
+    {
+        "input": "được ở nó luôn đâu đang biết trên bãi nó biển và",
+        "output": "và nó luôn biết được nó đang ở đâu trên bãi biển"
+    },
+    {
+        "input": "thì biểu nào trông đồ thế những như",
+        "output": "những biểu đồ thì trông như thế nào"
+    },
+    {
+        "input": "trông nào như đồ những biểu thế thì",
+        "output": "những biểu đồ thì trông như thế nào"
+    },
+    {
+        "input": "trông nào biểu những đồ như thế thì",
+        "output": "những biểu đồ thì trông như thế nào"
+    },
+    {
+        "input": "lên hình loại và điển là thể đại này hợp vào cả dịch sóng lượn chúng này những kia dịch nhiều dòng của hiện đè dòng những vì nhìn dòng ta bản này đồ sóng tấm tập bệnh sóng tất chúng bởi",
+        "output": "chúng ta nhìn vào những tấm bản đồ và chúng thể hiện dòng lượn sóng điển hình này dòng sóng này đè lên dòng sóng kia bởi vì tất cả những đại dịch này là tập hợp của nhiều loại dịch bệnh"
+    },
+    {
+        "input": "sóng tấm tất chúng nhiều vì này thể kia đại bởi lên những bản hiện là đè vào những đồ dịch dịch và tập dòng ta bệnh cả nhìn chúng hình lượn dòng sóng sóng này của hợp dòng này điển loại",
+        "output": "chúng ta nhìn vào những tấm bản đồ và chúng thể hiện dòng lượn sóng điển hình này dòng sóng này đè lên dòng sóng kia bởi vì tất cả những đại dịch này là tập hợp của nhiều loại dịch bệnh"
+    },
+    {
+        "input": "những này này cả dịch này nhìn của đồ tất lượn chúng là thể đè bệnh hiện vì dòng bởi vào dòng hình hợp sóng lên tập đại nhiều sóng ta những sóng chúng kia dịch bản loại dòng điển tấm và",
+        "output": "chúng ta nhìn vào những tấm bản đồ và chúng thể hiện dòng lượn sóng điển hình này dòng sóng này đè lên dòng sóng kia bởi vì tất cả những đại dịch này là tập hợp của nhiều loại dịch bệnh"
+    },
+    {
+        "input": "ra bệnh tìm điều cần này làm đầu và ca bạn được để những tiên",
+        "output": "và để làm được điều này bạn cần tìm ra những ca bệnh đầu tiên"
+    },
+    {
+        "input": "bệnh được tiên cần đầu ra này bạn ca để và tìm những điều làm",
+        "output": "và để làm được điều này bạn cần tìm ra những ca bệnh đầu tiên"
+    },
+    {
+        "input": "được và điều ra tiên cần để đầu ca bệnh này những bạn tìm làm",
+        "output": "và để làm được điều này bạn cần tìm ra những ca bệnh đầu tiên"
+    },
+    {
+        "input": "cố vấn từng nhà là chưa cứu không là nghiên và chức thể tổ khi một",
+        "output": "và không thể là một cố vấn khi chưa từng là nhà nghiên cứu tổ chức"
+    },
+    {
+        "input": "và một không nghiên khi là vấn từng tổ cố cứu nhà chưa là thể chức",
+        "output": "và không thể là một cố vấn khi chưa từng là nhà nghiên cứu tổ chức"
+    },
+    {
+        "input": "vấn nghiên từng khi là là chức và chưa thể một cứu nhà tổ cố không",
+        "output": "và không thể là một cố vấn khi chưa từng là nhà nghiên cứu tổ chức"
+    },
+    {
+        "input": "nghiên trong diễn nhà kẹt động khoa 6 báo ra học đó cứu bị ngay ở phòng",
+        "output": "6 nhà khoa học bị kẹt trong phòng nghiên cứu báo động diễn ra ngay ở đó"
+    },
+    {
+        "input": "động ở ra phòng kẹt ngay khoa báo nghiên diễn trong học bị đó 6 cứu nhà",
+        "output": "6 nhà khoa học bị kẹt trong phòng nghiên cứu báo động diễn ra ngay ở đó"
+    },
+    {
+        "input": "báo diễn ở nghiên đó học cứu khoa 6 trong động ngay bị ra nhà kẹt phòng",
+        "output": "6 nhà khoa học bị kẹt trong phòng nghiên cứu báo động diễn ra ngay ở đó"
+    },
+    {
+        "input": "qua đây này chưa đã trước chuyện trải ca đại",
+        "output": "trước đây đại ca đã trải qua chuyện này chưa"
+    },
+    {
+        "input": "đại đã chưa đây chuyện trải ca qua trước này",
+        "output": "trước đây đại ca đã trải qua chuyện này chưa"
+    },
+    {
+        "input": "trước đại chuyện chưa ca đã này đây trải qua",
+        "output": "trước đây đại ca đã trải qua chuyện này chưa"
+    },
+    {
+        "input": "vòng xếp tôi đếm 3 tròn đi đến",
+        "output": "xếp vòng tròn đi tôi đếm đến 3"
+    },
+    {
+        "input": "đi vòng xếp tôi đến 3 đếm tròn",
+        "output": "xếp vòng tròn đi tôi đếm đến 3"
+    },
+    {
+        "input": "vòng tròn đến tôi đếm xếp 3 đi",
+        "output": "xếp vòng tròn đi tôi đếm đến 3"
+    },
+    {
+        "input": "thể con không rồi cho mình chở che cô được",
+        "output": " cô không thể che chở được cho con mình rồi"
+    },
+    {
+        "input": "không cô chở thể rồi con cho mình che được",
+        "output": " cô không thể che chở được cho con mình rồi"
+    },
+    {
+        "input": "mình rồi con cô chở thể cho không được che",
+        "output": " cô không thể che chở được cho con mình rồi"
+    },
+    {
+        "input": "thể có được thù vật quái gì ăn tìm vì kẻ nó nó là đi những",
+        "output": "vì kẻ thù là quái vật nó đi tìm những gì nó có thể ăn được"
+    },
+    {
+        "input": "thể gì là nó kẻ có tìm vì nó được những đi thù ăn quái vật",
+        "output": "vì kẻ thù là quái vật nó đi tìm những gì nó có thể ăn được"
+    },
+    {
+        "input": "vật nó thể quái những đi vì thù tìm được có nó gì ăn kẻ là",
+        "output": "vì kẻ thù là quái vật nó đi tìm những gì nó có thể ăn được"
+    },
+    {
+        "input": "xác 1 đã biến mất cái",
+        "output": "1 cái xác đã biến mất"
+    },
+    {
+        "input": "xác mất 1 đã biến cái",
+        "output": "1 cái xác đã biến mất"
+    },
+    {
+        "input": "mất biến xác 1 đã cái",
+        "output": "1 cái xác đã biến mất"
+    },
+    {
+        "input": "không có 1 đâu phút cũng",
+        "output": " 1 phút cũng không có đâu"
+    },
+    {
+        "input": "đâu không có cũng phút 1",
+        "output": " 1 phút cũng không có đâu"
+    },
+    {
+        "input": "có đâu 1 phút cũng không",
+        "output": " 1 phút cũng không có đâu"
+    },
+    {
+        "input": "đó tính truyền vài cho cho 1 cảm dành gen là người là",
+        "output": "1 vài người cho là đó là gen dành cho tính truyền cảm"
+    },
+    {
+        "input": "truyền 1 cho cho là dành người gen vài tính cảm đó là",
+        "output": "1 vài người cho là đó là gen dành cho tính truyền cảm"
+    },
+    {
+        "input": "vài là cho đó 1 tính dành là cho truyền người gen cảm",
+        "output": "1 vài người cho là đó là gen dành cho tính truyền cảm"
+    },
+    {
+        "input": "2 5 3 4 1",
+        "output": " 5 4 3 2 1"
+    },
+    {
+        "input": "4 5 1 3 2",
+        "output": " 5 4 3 2 1"
+    },
+    {
+        "input": "4 1 3 5 2",
+        "output": " 5 4 3 2 1"
+    },
+    {
+        "input": "cũng phải bảo lệnh và cơ có chúng sở toàn ta này",
+        "output": "và chúng ta cũng có lệnh phải bảo toàn cơ sở này"
+    },
+    {
+        "input": "sở có và này cơ cũng phải toàn bảo chúng lệnh ta",
+        "output": "và chúng ta cũng có lệnh phải bảo toàn cơ sở này"
+    },
+    {
+        "input": "phải lệnh sở này ta chúng và cơ cũng bảo có toàn",
+        "output": "và chúng ta cũng có lệnh phải bảo toàn cơ sở này"
+    },
+    {
+        "input": "1 1 vào em đầu dự không vào phát tim do được phát",
+        "output": "1 phát vào tim 1 phát vào đầu em không được do dự"
+    },
+    {
+        "input": "không 1 em phát dự phát vào 1 vào được tim đầu do",
+        "output": "1 phát vào tim 1 phát vào đầu em không được do dự"
+    },
+    {
+        "input": "phát đầu được vào không 1 1 dự do tim em phát vào",
+        "output": "1 phát vào tim 1 phát vào đầu em không được do dự"
+    },
+    {
+        "input": "súc chỉ nó và người thôi gia bắt không",
+        "output": " và nó không bắt gia súc  chỉ người thôi"
+    },
+    {
+        "input": "gia nó chỉ không và người súc bắt thôi",
+        "output": " và nó không bắt gia súc  chỉ người thôi"
+    },
+    {
+        "input": "người nó gia và súc thôi bắt chỉ không",
+        "output": " và nó không bắt gia súc  chỉ người thôi"
+    },
+    {
+        "input": "bắt tội cóc tiền hành tống hung",
+        "output": "tội bắt cóc tống tiền hành hung"
+    },
+    {
+        "input": "bắt tiền hung cóc tống tội hành",
+        "output": "tội bắt cóc tống tiền hành hung"
+    },
+    {
+        "input": "tống cóc hung tội tiền bắt hành",
+        "output": "tội bắt cóc tống tiền hành hung"
+    },
+    {
+        "input": "1 ngày tiếng 8",
+        "output": " 8 tiếng 1 ngày"
+    },
+    {
+        "input": "tiếng ngày 8 1",
+        "output": " 8 tiếng 1 ngày"
+    },
+    {
+        "input": "1 ngày tiếng 8",
+        "output": " 8 tiếng 1 ngày"
+    },
+    {
+        "input": "cà cái gần đây tháng 5 3 nhất cùng vạt",
+        "output": "3 tháng gần đây nhất cùng 5 cái cà vạt"
+    },
+    {
+        "input": "cái cà nhất 3 gần vạt 5 đây cùng tháng",
+        "output": "3 tháng gần đây nhất cùng 5 cái cà vạt"
+    },
+    {
+        "input": "tháng gần nhất cà 5 3 vạt cùng đây cái",
+        "output": "3 tháng gần đây nhất cùng 5 cái cà vạt"
+    },
+    {
+        "input": "ca đây gay go 1",
+        "output": " 1 ca gay go đây"
+    },
+    {
+        "input": "đây 1 go ca gay",
+        "output": " 1 ca gay go đây"
+    },
+    {
+        "input": "go gay 1 ca đây",
+        "output": " 1 ca gay go đây"
+    },
+    {
+        "input": "thần thể không u nhìn đệm bị có khối kinh nhỏ thấy 1",
+        "output": "1 khối u thần kinh đệm nhỏ có thể không bị nhìn thấy"
+    },
+    {
+        "input": "kinh nhỏ thể đệm 1 u không thấy bị có khối nhìn thần",
+        "output": "1 khối u thần kinh đệm nhỏ có thể không bị nhìn thấy"
+    },
+    {
+        "input": "khối đệm bị 1 nhìn kinh có thể không thấy thần u nhỏ",
+        "output": "1 khối u thần kinh đệm nhỏ có thể không bị nhìn thấy"
+    },
+    {
+        "input": "hẳn ta đến mức bệnh phải tương cộng thần cát khi nặng u vậy chụp pha sẽ đệm thì không 1 từ kinh mà thấy không thứ hạt 1 bé làm hơn người hưởng phản",
+        "output": "1 u thần kinh đệm mà không thấy khi chụp cộng hưởng từ pha tương phản thì hẳn phải bé hơn 1 hạt cát thứ sẽ không làm người ta bệnh nặng đến mức vậy"
+    },
+    {
+        "input": "thì phản tương 1 vậy thấy thứ mà không từ bé cộng không bệnh đến hưởng sẽ pha hơn hạt kinh làm cát 1 thần khi mức nặng u hẳn chụp phải người ta đệm",
+        "output": "1 u thần kinh đệm mà không thấy khi chụp cộng hưởng từ pha tương phản thì hẳn phải bé hơn 1 hạt cát thứ sẽ không làm người ta bệnh nặng đến mức vậy"
+    },
+    {
+        "input": "cộng phải kinh bé mà đệm bệnh không mức hẳn u người phản vậy sẽ nặng thần ta hạt 1 chụp cát thấy làm thứ tương không khi hơn đến hưởng thì pha từ 1",
+        "output": "1 u thần kinh đệm mà không thấy khi chụp cộng hưởng từ pha tương phản thì hẳn phải bé hơn 1 hạt cát thứ sẽ không làm người ta bệnh nặng đến mức vậy"
+    },
+    {
+        "input": "1 ta số làm cậu kiểm các trong làm chỗ cô tra",
+        "output": " 1 trong số các cậu kiểm tra chỗ làm cô ta làm"
+    },
+    {
+        "input": "1 tra số các làm làm trong ta chỗ kiểm cô cậu",
+        "output": " 1 trong số các cậu kiểm tra chỗ làm cô ta làm"
+    },
+    {
+        "input": "1 làm chỗ kiểm số làm tra ta cô trong cậu các",
+        "output": " 1 trong số các cậu kiểm tra chỗ làm cô ta làm"
+    },
+    {
+        "input": "hơi thấy lo 1 hôm tôi cô bị và ho",
+        "output": " 1 hôm cô bị ho và tôi thấy hơi lo"
+    },
+    {
+        "input": "ho tôi lo và cô 1 hơi thấy bị hôm",
+        "output": " 1 hôm cô bị ho và tôi thấy hơi lo"
+    },
+    {
+        "input": "hơi cô bị thấy 1 hôm lo tôi và ho",
+        "output": " 1 hôm cô bị ho và tôi thấy hơi lo"
+    },
+    {
+        "input": "lúc nhỏ con còn hệt như",
+        "output": "hệt như lúc con còn nhỏ"
+    },
+    {
+        "input": "như hệt còn nhỏ con lúc",
+        "output": "hệt như lúc con còn nhỏ"
+    },
+    {
+        "input": "nhỏ con hệt còn lúc như",
+        "output": "hệt như lúc con còn nhỏ"
+    },
+    {
+        "input": "mà chồng có ấy đã rồi cô",
+        "output": "cô ấy đã có chồng rồi mà"
+    },
+    {
+        "input": "ấy mà cô đã rồi có chồng",
+        "output": "cô ấy đã có chồng rồi mà"
+    },
+    {
+        "input": "đã rồi có ấy cô mà chồng",
+        "output": "cô ấy đã có chồng rồi mà"
+    },
+    {
+        "input": "gì tôi cả những cần là đó tất",
+        "output": "đó là tất cả những gì tôi cần"
+    },
+    {
+        "input": "gì cần là tôi tất đó những cả",
+        "output": "đó là tất cả những gì tôi cần"
+    },
+    {
+        "input": "đó cả gì những tôi là tất cần",
+        "output": "đó là tất cả những gì tôi cần"
+    },
+    {
+        "input": "con cầm và nó ai tại đang lại đó con không con sao của ví biết có",
+        "output": "con đang cầm ví của ai đó và con không biết tại sao con lại có nó"
+    },
+    {
+        "input": "con con không đang tại cầm và đó của ví con lại có nó ai biết sao",
+        "output": "con đang cầm ví của ai đó và con không biết tại sao con lại có nó"
+    },
+    {
+        "input": "đó ai biết con và đang không của con lại cầm nó tại con ví có sao",
+        "output": "con đang cầm ví của ai đó và con không biết tại sao con lại có nó"
+    },
+    {
+        "input": "ngày nắng mưa lại đến thể có thứ sẽ bảy trời có có",
+        "output": "trời có nắng đến ngày thứ bảy có thể sẽ lại có mưa"
+    },
+    {
+        "input": "ngày trời đến lại nắng thể bảy thứ có sẽ có có mưa",
+        "output": "trời có nắng đến ngày thứ bảy có thể sẽ lại có mưa"
+    },
+    {
+        "input": "sẽ có mưa lại nắng bảy ngày thứ có thể trời có đến",
+        "output": "trời có nắng đến ngày thứ bảy có thể sẽ lại có mưa"
+    },
+    {
+        "input": "ông lại thư để cũng lần nhất ấy viết ít này",
+        "output": "ít nhất lần này ông ấy cũng viết thư để lại"
+    },
+    {
+        "input": "lại để thư nhất viết ông cũng ít ấy này lần",
+        "output": "ít nhất lần này ông ấy cũng viết thư để lại"
+    },
+    {
+        "input": "lần ít ông nhất để cũng ấy lại thư viết này",
+        "output": "ít nhất lần này ông ấy cũng viết thư để lại"
+    },
+    {
+        "input": "không có em nhà",
+        "output": "em có nhà không"
+    },
+    {
+        "input": "có em không nhà",
+        "output": "em có nhà không"
+    },
+    {
+        "input": "có em nhà không",
+        "output": "em có nhà không"
+    },
+    {
+        "input": "thôi ông đó đó ta ra với sẽ sẽ ta chuyện phải chúng một nào mặt tù ngày và đối",
+        "output": "một ngày nào đó ông ta sẽ ra tù và chúng ta sẽ phải đối mặt với chuyện đó thôi"
+    },
+    {
+        "input": "đó chúng ngày nào ông ta một phải chuyện mặt sẽ đó với thôi đối và ra tù ta sẽ",
+        "output": "một ngày nào đó ông ta sẽ ra tù và chúng ta sẽ phải đối mặt với chuyện đó thôi"
+    },
+    {
+        "input": "chuyện sẽ ra ta với sẽ nào tù chúng đó ngày ông thôi ta và mặt đó phải đối một",
+        "output": "một ngày nào đó ông ta sẽ ra tù và chúng ta sẽ phải đối mặt với chuyện đó thôi"
+    },
+    {
+        "input": "hút mẹ đấy à thuốc",
+        "output": "mẹ hút thuốc đấy à"
+    },
+    {
+        "input": "à hút đấy mẹ thuốc",
+        "output": "mẹ hút thuốc đấy à"
+    },
+    {
+        "input": "hút thuốc à đấy mẹ",
+        "output": "mẹ hút thuốc đấy à"
+    },
+    {
+        "input": "là của nhìn vào hàng cô thấy ấy chỉ cửa",
+        "output": "chỉ nhìn vào cửa hàng của cô ấy là thấy"
+    },
+    {
+        "input": "của là thấy cửa hàng chỉ nhìn ấy vào cô",
+        "output": "chỉ nhìn vào cửa hàng của cô ấy là thấy"
+    },
+    {
+        "input": "hàng cô ấy cửa chỉ nhìn của vào là thấy",
+        "output": "chỉ nhìn vào cửa hàng của cô ấy là thấy"
+    },
+    {
+        "input": "là nghĩ đã mọi phải không đâu chết người con người",
+        "output": "con không phải người mọi người nghĩ là đã chết đâu"
+    },
+    {
+        "input": "người mọi phải đâu không con đã chết người nghĩ là",
+        "output": "con không phải người mọi người nghĩ là đã chết đâu"
+    },
+    {
+        "input": "người chết con nghĩ là người mọi không đâu phải đã",
+        "output": "con không phải người mọi người nghĩ là đã chết đâu"
+    },
+    {
+        "input": "thích con mẹ không còn",
+        "output": "con còn thích mẹ không"
+    },
+    {
+        "input": "mẹ còn thích con không",
+        "output": "con còn thích mẹ không"
+    },
+    {
+        "input": "con không mẹ còn thích",
+        "output": "con còn thích mẹ không"
+    },
+    {
+        "input": "cứ ngơi anh nghỉ đi",
+        "output": "anh cứ nghỉ ngơi đi"
+    },
+    {
+        "input": "ngơi nghỉ anh cứ đi",
+        "output": "anh cứ nghỉ ngơi đi"
+    },
+    {
+        "input": "nghỉ anh cứ đi ngơi",
+        "output": "anh cứ nghỉ ngơi đi"
+    },
+    {
+        "input": "bữa thường là tối chỉ bình một mà thôi",
+        "output": "chỉ là một bữa tối bình thường thôi mà"
+    },
+    {
+        "input": "là một thường bữa mà thôi chỉ bình tối",
+        "output": "chỉ là một bữa tối bình thường thôi mà"
+    },
+    {
+        "input": "thôi là thường một chỉ mà tối bữa bình",
+        "output": "chỉ là một bữa tối bình thường thôi mà"
+    },
+    {
+        "input": "2 đứa 3 mừng khi gặp trong mẹ",
+        "output": "2 trong 3 đứa mừng khi gặp mẹ"
+    },
+    {
+        "input": "3 mẹ gặp khi mừng đứa 2 trong",
+        "output": "2 trong 3 đứa mừng khi gặp mẹ"
+    },
+    {
+        "input": "khi đứa 3 gặp trong mẹ mừng 2",
+        "output": "2 trong 3 đứa mừng khi gặp mẹ"
+    },
+    {
+        "input": "áp nhắn và nhỏ lông đầy ấm",
+        "output": "nhỏ nhắn đầy lông và ấm áp"
+    },
+    {
+        "input": "nhắn ấm nhỏ đầy và lông áp",
+        "output": "nhỏ nhắn đầy lông và ấm áp"
+    },
+    {
+        "input": "lông nhắn và áp đầy ấm nhỏ",
+        "output": "nhỏ nhắn đầy lông và ấm áp"
+    },
+    {
+        "input": "như anh chưa nói",
+        "output": " như anh nói chưa"
+    },
+    {
+        "input": "chưa nói anh như",
+        "output": " như anh nói chưa"
+    },
+    {
+        "input": "chưa anh như nói",
+        "output": " như anh nói chưa"
+    },
+    {
+        "input": "tất như gần họ cả",
+        "output": "gần như tất cả họ"
+    },
+    {
+        "input": "gần như tất cả họ",
+        "output": "gần như tất cả họ"
+    },
+    {
+        "input": "tất gần như họ cả",
+        "output": "gần như tất cả họ"
+    },
+    {
+        "input": "đàn người ông đây hành em động của",
+        "output": "người đàn ông của em hành động đây"
+    },
+    {
+        "input": "đây động của em ông người đàn hành",
+        "output": "người đàn ông của em hành động đây"
+    },
+    {
+        "input": "người em đàn của đây động ông hành",
+        "output": "người đàn ông của em hành động đây"
+    },
+    {
+        "input": "lần 3 hay 2",
+        "output": "2 hay 3 lần"
+    },
+    {
+        "input": "hay 3 lần 2",
+        "output": "2 hay 3 lần"
+    },
+    {
+        "input": "lần 3 hay 2",
+        "output": "2 hay 3 lần"
+    },
+    {
+        "input": "rồi đây bản có in",
+        "output": "có bản in đây rồi"
+    },
+    {
+        "input": "rồi đây bản có in",
+        "output": "có bản in đây rồi"
+    },
+    {
+        "input": "có in rồi đây bản",
+        "output": "có bản in đây rồi"
+    },
+    {
+        "input": "người cách một anh nếu trốn sẽ anh tôi nhét tìm đạn viên vô",
+        "output": "nếu anh tìm cách trốn tôi sẽ nhét một viên đạn vô người anh"
+    },
+    {
+        "input": "vô đạn sẽ cách người nếu tôi anh anh trốn viên nhét tìm một",
+        "output": "nếu anh tìm cách trốn tôi sẽ nhét một viên đạn vô người anh"
+    },
+    {
+        "input": "tôi cách nhét nếu người vô anh viên trốn một đạn anh sẽ tìm",
+        "output": "nếu anh tìm cách trốn tôi sẽ nhét một viên đạn vô người anh"
+    },
+    {
+        "input": "cũng tên lạc như ban ngày đạn bay",
+        "output": "cũng như tên bay đạn lạc ban ngày"
+    },
+    {
+        "input": "như ban ngày đạn cũng bay lạc tên",
+        "output": "cũng như tên bay đạn lạc ban ngày"
+    },
+    {
+        "input": "lạc như ngày đạn bay ban cũng tên",
+        "output": "cũng như tên bay đạn lạc ban ngày"
+    },
+    {
+        "input": "trong dịch bóng tối cũng truyền lan như bệnh",
+        "output": "cũng như bệnh dịch lan truyền trong bóng tối"
+    },
+    {
+        "input": "dịch trong bóng bệnh lan tối cũng truyền như",
+        "output": "cũng như bệnh dịch lan truyền trong bóng tối"
+    },
+    {
+        "input": "tối dịch như cũng trong truyền bóng bệnh lan",
+        "output": "cũng như bệnh dịch lan truyền trong bóng tối"
+    },
+    {
+        "input": "tao theo có thể tụi hoặc lần cuối là một mày",
+        "output": "hoặc là tụi mày có thể theo tao một lần cuối"
+    },
+    {
+        "input": "lần hoặc mày cuối có thể tụi là tao theo một",
+        "output": "hoặc là tụi mày có thể theo tao một lần cuối"
+    },
+    {
+        "input": "tụi một cuối mày lần có theo hoặc là thể tao",
+        "output": "hoặc là tụi mày có thể theo tao một lần cuối"
+    },
+    {
+        "input": "biết với ở hơn quanh mọi cậu người so nhiều ra xem đây",
+        "output": "xem ra cậu biết nhiều hơn so với mọi người ở quanh đây"
+    },
+    {
+        "input": "quanh người hơn nhiều ra đây biết cậu với xem so ở mọi",
+        "output": "xem ra cậu biết nhiều hơn so với mọi người ở quanh đây"
+    },
+    {
+        "input": "so với người biết xem mọi hơn cậu quanh nhiều ở ra đây",
+        "output": "xem ra cậu biết nhiều hơn so với mọi người ở quanh đây"
+    },
+    {
+        "input": "người có với phụ này chuyện trách chuyện thể nói anh",
+        "output": " anh có thể nói chuyện với người phụ trách chuyện này"
+    },
+    {
+        "input": "này anh thể chuyện chuyện với nói có phụ trách người",
+        "output": " anh có thể nói chuyện với người phụ trách chuyện này"
+    },
+    {
+        "input": "có chuyện chuyện thể phụ trách anh này nói người với",
+        "output": " anh có thể nói chuyện với người phụ trách chuyện này"
+    },
+    {
+        "input": "cách bằng túng thao tôi",
+        "output": " bằng cách thao túng tôi"
+    },
+    {
+        "input": "bằng túng tôi cách thao",
+        "output": " bằng cách thao túng tôi"
+    },
+    {
+        "input": "tôi thao bằng cách túng",
+        "output": " bằng cách thao túng tôi"
+    },
+    {
+        "input": "3 súng họ có bom này quả tên một chế máy và đang",
+        "output": "3 tên này có súng máy và họ đang chế một quả bom"
+    },
+    {
+        "input": "bom súng tên đang một có máy họ và này chế 3 quả",
+        "output": "3 tên này có súng máy và họ đang chế một quả bom"
+    },
+    {
+        "input": "quả bom một máy này 3 súng và họ có tên đang chế",
+        "output": "3 tên này có súng máy và họ đang chế một quả bom"
+    },
+    {
+        "input": "kéo dài khắc dài thở đó và khoảnh theo độ hơi của",
+        "output": "và khoảnh khắc đó kéo dài theo độ dài của hơi thở"
+    },
+    {
+        "input": "và theo khắc độ đó hơi khoảnh dài thở kéo dài của",
+        "output": "và khoảnh khắc đó kéo dài theo độ dài của hơi thở"
+    },
+    {
+        "input": "kéo thở theo dài khắc đó và dài khoảnh hơi của độ",
+        "output": "và khoảnh khắc đó kéo dài theo độ dài của hơi thở"
+    },
+    {
+        "input": "hợp thời điểm để tấn đợi công thích",
+        "output": "đợi thời điểm thích hợp để tấn công"
+    },
+    {
+        "input": "thích đợi điểm thời công hợp để tấn",
+        "output": "đợi thời điểm thích hợp để tấn công"
+    },
+    {
+        "input": "hợp đợi công điểm thích thời tấn để",
+        "output": "đợi thời điểm thích hợp để tấn công"
+    },
+    {
+        "input": "định à người 2 li dị",
+        "output": "2 người định li dị à"
+    },
+    {
+        "input": "định 2 à người li dị",
+        "output": "2 người định li dị à"
+    },
+    {
+        "input": "li định à 2 người dị",
+        "output": "2 người định li dị à"
+    },
+    {
+        "input": "sau đó là lên và thớt",
+        "output": "và sau đó là lên thớt"
+    },
+    {
+        "input": "sau đó là và thớt lên",
+        "output": "và sau đó là lên thớt"
+    },
+    {
+        "input": "sau thớt đó là và lên",
+        "output": "và sau đó là lên thớt"
+    },
+    {
+        "input": "2 bạn người khi là từ nào",
+        "output": "2 người là bạn từ khi nào"
+    },
+    {
+        "input": "từ nào bạn là 2 khi người",
+        "output": "2 người là bạn từ khi nào"
+    },
+    {
+        "input": "khi bạn nào 2 từ là người",
+        "output": "2 người là bạn từ khi nào"
+    },
+    {
+        "input": "nói đang 2 vậy người gì",
+        "output": "2 người đang nói gì vậy"
+    },
+    {
+        "input": "gì vậy người 2 nói đang",
+        "output": "2 người đang nói gì vậy"
+    },
+    {
+        "input": "vậy 2 nói gì người đang",
+        "output": "2 người đang nói gì vậy"
+    }
+]

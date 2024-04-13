@@ -1,0 +1,2018 @@
+[
+    {
+        "input": "dạy đạp đất dạy một phải như dạy đạp không xe hay trẻ chúng cày chúng mảnh",
+        "output": "dạy trẻ không phải như dạy chúng cày một mảnh đất hay dạy chúng đạp xe đạp"
+    },
+    {
+        "input": "cày đất dạy một mảnh không xe như hay đạp phải trẻ chúng dạy đạp chúng dạy",
+        "output": "dạy trẻ không phải như dạy chúng cày một mảnh đất hay dạy chúng đạp xe đạp"
+    },
+    {
+        "input": "hay đạp dạy đạp dạy chúng như trẻ cày đất dạy phải một không chúng xe mảnh",
+        "output": "dạy trẻ không phải như dạy chúng cày một mảnh đất hay dạy chúng đạp xe đạp"
+    },
+    {
+        "input": "tôi mê bị ấy gây hôm morphine",
+        "output": "hôm ấy tôi bị gây mê morphine"
+    },
+    {
+        "input": "mê tôi bị hôm gây morphine ấy",
+        "output": "hôm ấy tôi bị gây mê morphine"
+    },
+    {
+        "input": "gây ấy mê morphine bị tôi hôm",
+        "output": "hôm ấy tôi bị gây mê morphine"
+    },
+    {
+        "input": "có một tôi mục đã sai lấy gánh rằng nghĩ tôi hơn giới cho tốt bởi đích đức ách bỏng con lầm nhưng có phúc thể khát khao cái đứa thế thấy cháy ta chúng những hạnh đạo một",
+        "output": "cho thế giới nhưng tôi nghĩ rằng bởi khao khát cháy bỏng có những đứa con hạnh phúc chúng ta có thể đã gánh lấy một cái ách đạo đức sai lầm tôi thấy một mục đích tốt hơn"
+    },
+    {
+        "input": "mục con đạo ta có khát những sai đứa cháy thế rằng có bởi gánh cho một tốt nhưng cái phúc lấy thể tôi hơn nghĩ giới tôi bỏng một đích hạnh khao thấy chúng đức ách lầm đã",
+        "output": "cho thế giới nhưng tôi nghĩ rằng bởi khao khát cháy bỏng có những đứa con hạnh phúc chúng ta có thể đã gánh lấy một cái ách đạo đức sai lầm tôi thấy một mục đích tốt hơn"
+    },
+    {
+        "input": "con hạnh cháy nghĩ nhưng đức đứa giới phúc ta lầm khát rằng cho mục thấy chúng sai hơn thể lấy bỏng khao đạo tôi đã một thế đích những gánh tốt ách tôi một bởi cái có có",
+        "output": "cho thế giới nhưng tôi nghĩ rằng bởi khao khát cháy bỏng có những đứa con hạnh phúc chúng ta có thể đã gánh lấy một cái ách đạo đức sai lầm tôi thấy một mục đích tốt hơn"
+    },
+    {
+        "input": "đã tôi yêu tích thành cảm việc lành giản nhờ nên tập hạnh là có từ phúc dám hợp tôi của phẩm và sẽ nói trở để và nhận trung làm hơn mong trái con hạnh thương chúng lòng chúng ta đến công cho làm lý rằng bởi đạo việc tốt nên với trong ích hữu các được chúng dị chúng",
+        "output": "tôi dám nói hợp đạo lý hơn là tập trung để làm cho các con tôi nên hữu ích trở nên có phẩm hạnh và giản dị mong rằng hạnh phúc sẽ đến với chúng bởi trái tốt lành của việc chúng làm nhờ thành tích trong công việc và lòng yêu thương chúng đã cảm nhận được từ chúng ta"
+    },
+    {
+        "input": "nhận trong trở chúng và việc tốt hơn đến từ nên việc có đã đạo tôi chúng rằng tập lành yêu mong thành làm nên nói và lòng giản con nhờ cảm bởi trái chúng công chúng hạnh lý để phúc tôi với hợp thương tích sẽ hữu phẩm dám trung hạnh ích các dị ta cho được là của làm",
+        "output": "tôi dám nói hợp đạo lý hơn là tập trung để làm cho các con tôi nên hữu ích trở nên có phẩm hạnh và giản dị mong rằng hạnh phúc sẽ đến với chúng bởi trái tốt lành của việc chúng làm nhờ thành tích trong công việc và lòng yêu thương chúng đã cảm nhận được từ chúng ta"
+    },
+    {
+        "input": "có việc đã nên tốt nhờ dị thương lành của tôi trái bởi và lòng làm chúng hợp trở phúc cho hạnh được dám yêu và các nên thành việc trong tôi sẽ tích con làm lý hơn ích mong phẩm hạnh là nói cảm chúng với từ rằng tập ta đến chúng công nhận trung hữu giản chúng đạo để",
+        "output": "tôi dám nói hợp đạo lý hơn là tập trung để làm cho các con tôi nên hữu ích trở nên có phẩm hạnh và giản dị mong rằng hạnh phúc sẽ đến với chúng bởi trái tốt lành của việc chúng làm nhờ thành tích trong công việc và lòng yêu thương chúng đã cảm nhận được từ chúng ta"
+    },
+    {
+        "input": "hàng tỉ ngoài 1 đặt ngân khoản tài những tại thuế được la nước đô tiền",
+        "output": "1 tỉ đô la tiền thuế được đặt tại những tài khoản ngân hàng nước ngoài"
+    },
+    {
+        "input": "ngân tiền tại ngoài khoản la 1 tỉ nước thuế đô những đặt hàng tài được",
+        "output": "1 tỉ đô la tiền thuế được đặt tại những tài khoản ngân hàng nước ngoài"
+    },
+    {
+        "input": "nước tỉ đặt la 1 khoản ngoài những hàng thuế tài đô ngân tiền tại được",
+        "output": "1 tỉ đô la tiền thuế được đặt tại những tài khoản ngân hàng nước ngoài"
+    },
+    {
+        "input": "cả giống không cứ đâu bất nơi",
+        "output": " không giống bất cứ nơi đâu cả"
+    },
+    {
+        "input": "bất cứ giống không cả nơi đâu",
+        "output": " không giống bất cứ nơi đâu cả"
+    },
+    {
+        "input": "bất nơi đâu giống không cứ cả",
+        "output": " không giống bất cứ nơi đâu cả"
+    },
+    {
+        "input": "lý truyền tin là một thông là xử thông hai",
+        "output": "một là xử lý thông tin hai là truyền thông"
+    },
+    {
+        "input": "là truyền xử tin hai là một thông lý thông",
+        "output": "một là xử lý thông tin hai là truyền thông"
+    },
+    {
+        "input": "là thông xử tin là hai lý thông truyền một",
+        "output": "một là xử lý thông tin hai là truyền thông"
+    },
+    {
+        "input": "ở được nó cách ra mà tạo",
+        "output": "mà ở cách nó được tạo ra"
+    },
+    {
+        "input": "ở cách ra nó mà tạo được",
+        "output": "mà ở cách nó được tạo ra"
+    },
+    {
+        "input": "nó tạo mà cách được ở ra",
+        "output": "mà ở cách nó được tạo ra"
+    },
+    {
+        "input": "vào tiềm là kinh làm lợi được cá của liệu ty bạn công nhân cạnh nào tổ các phụ dữ của ẩn của nếu thuộc việc bạn nghệ thế đạt trên sẽ công hoặc nếu thực trong chức trị tế bạn doanh giá tranh dựa dữ liệu các thế",
+        "output": "nếu việc kinh doanh của bạn dựa trên dữ liệu cá nhân nếu lợi thế cạnh tranh của bạn phụ thuộc vào dữ liệu của bạn làm thế nào các công ty hoặc là các tổ chức thực tế sẽ đạt được giá trị tiềm ẩn trong công nghệ"
+    },
+    {
+        "input": "các thuộc của doanh tế nếu thế chức tiềm công nghệ liệu trị bạn các trên trong dữ bạn dữ làm công của của phụ việc cạnh kinh được nào hoặc là cá nếu sẽ nhân ty tranh thế thực tổ vào bạn dựa ẩn đạt liệu lợi giá",
+        "output": "nếu việc kinh doanh của bạn dựa trên dữ liệu cá nhân nếu lợi thế cạnh tranh của bạn phụ thuộc vào dữ liệu của bạn làm thế nào các công ty hoặc là các tổ chức thực tế sẽ đạt được giá trị tiềm ẩn trong công nghệ"
+    },
+    {
+        "input": "tế dựa việc của tranh kinh lợi bạn thế bạn liệu nếu ẩn thuộc nào giá được doanh trị nghệ công nếu công trong là làm phụ cạnh sẽ dữ của vào thực các đạt ty bạn các chức hoặc dữ thế trên của nhân tổ liệu cá tiềm",
+        "output": "nếu việc kinh doanh của bạn dựa trên dữ liệu cá nhân nếu lợi thế cạnh tranh của bạn phụ thuộc vào dữ liệu của bạn làm thế nào các công ty hoặc là các tổ chức thực tế sẽ đạt được giá trị tiềm ẩn trong công nghệ"
+    },
+    {
+        "input": "hình trúc chiều nhưng chuyển ngang theo theo cấu càng chiều hướng càng hướng ngày nào dọc dù sang điển",
+        "output": "nhưng dù theo hướng nào cấu trúc điển hình theo chiều dọc càng ngày càng chuyển hướng sang chiều ngang"
+    },
+    {
+        "input": "càng sang dù theo chiều trúc chiều ngày ngang cấu hình điển theo hướng hướng nào chuyển dọc càng nhưng",
+        "output": "nhưng dù theo hướng nào cấu trúc điển hình theo chiều dọc càng ngày càng chuyển hướng sang chiều ngang"
+    },
+    {
+        "input": "ngang chuyển trúc càng chiều hướng điển nhưng dọc hướng càng chiều nào dù ngày theo theo sang hình cấu",
+        "output": "nhưng dù theo hướng nào cấu trúc điển hình theo chiều dọc càng ngày càng chuyển hướng sang chiều ngang"
+    },
+    {
+        "input": "không đúng rất quen nhưng",
+        "output": "nhưng rất quen đúng không"
+    },
+    {
+        "input": "nhưng rất đúng không quen",
+        "output": "nhưng rất quen đúng không"
+    },
+    {
+        "input": "rất đúng quen nhưng không",
+        "output": "nhưng rất quen đúng không"
+    },
+    {
+        "input": "với huynh không sinh đồng cả chỉ cộng với học mà phụ",
+        "output": "không chỉ với học sinh phụ huynh mà với cả cộng đồng"
+    },
+    {
+        "input": "cả đồng phụ mà huynh học với sinh chỉ với không cộng",
+        "output": "không chỉ với học sinh phụ huynh mà với cả cộng đồng"
+    },
+    {
+        "input": "cả sinh mà học huynh với chỉ đồng không cộng với phụ",
+        "output": "không chỉ với học sinh phụ huynh mà với cả cộng đồng"
+    },
+    {
+        "input": "thử ngày là giá nếu 5 bạn này của xe như nhanh giá thấy chóng rõ tử tượng các một bỏ có của chỉ chiếc bị đô thành xe cần lành điện hơn điều chiếc tưởng 1 thiết la để giảm nay ra thì ngon",
+        "output": "để thấy rõ hơn điều này bạn thử tưởng tượng nếu giá thành của 1 chiếc xe giảm nhanh chóng như giá của các thiết bị điện tử thì ngày nay chỉ cần bỏ ra 5 đô la là có một chiếc xe ngon lành"
+    },
+    {
+        "input": "nếu giảm nhanh thử 5 một chỉ thành tử điều tưởng ra đô các của ngon hơn thấy chiếc của rõ chóng để có thì như này xe xe thiết giá tượng chiếc là lành 1 bạn ngày cần bị giá bỏ nay điện la",
+        "output": "để thấy rõ hơn điều này bạn thử tưởng tượng nếu giá thành của 1 chiếc xe giảm nhanh chóng như giá của các thiết bị điện tử thì ngày nay chỉ cần bỏ ra 5 đô la là có một chiếc xe ngon lành"
+    },
+    {
+        "input": "đô rõ thì giảm điện ngày lành này bị bạn một giá nếu của 5 nhanh là giá 1 tử để chiếc nay bỏ la thấy thử hơn như cần các chóng chỉ chiếc ngon điều xe của thiết có ra tượng xe tưởng thành",
+        "output": "để thấy rõ hơn điều này bạn thử tưởng tượng nếu giá thành của 1 chiếc xe giảm nhanh chóng như giá của các thiết bị điện tử thì ngày nay chỉ cần bỏ ra 5 đô la là có một chiếc xe ngon lành"
+    },
+    {
+        "input": "tổ nào cả ty tham được cũng chức công gia",
+        "output": "công ty tổ chức nào cũng tham gia được cả"
+    },
+    {
+        "input": "chức được cũng gia ty cả tổ nào tham công",
+        "output": "công ty tổ chức nào cũng tham gia được cả"
+    },
+    {
+        "input": "được tham ty tổ cả chức cũng gia công nào",
+        "output": "công ty tổ chức nào cũng tham gia được cả"
+    },
+    {
+        "input": "nghệ có sẵn đã công",
+        "output": "công nghệ đã sẵn có"
+    },
+    {
+        "input": "đã nghệ có sẵn công",
+        "output": "công nghệ đã sẵn có"
+    },
+    {
+        "input": "có sẵn đã nghệ công",
+        "output": "công nghệ đã sẵn có"
+    },
+    {
+        "input": "là có tiền 1 đích 2 bạc cùng đe để gọi dụng dùng của khác bạn thể người họ có như lực 3 bạn cải kêu doạ là mục vũ áp là",
+        "output": "1 là đe doạ áp dụng vũ lực   2 là dùng tiền bạc của cải   3 là bạn có thể kêu gọi người khác để họ có cùng mục đích như bạn"
+    },
+    {
+        "input": "2 tiền là áp doạ 1 bạn để có bạc lực cùng như đe khác gọi bạn dụng dùng là đích họ 3 có thể cải vũ là mục người kêu của",
+        "output": "1 là đe doạ áp dụng vũ lực   2 là dùng tiền bạc của cải   3 là bạn có thể kêu gọi người khác để họ có cùng mục đích như bạn"
+    },
+    {
+        "input": "bạc họ mục để người có dụng doạ thể gọi có là của áp như vũ đích là khác dùng bạn đe tiền 1 2 lực bạn 3 cải là kêu cùng",
+        "output": "1 là đe doạ áp dụng vũ lực   2 là dùng tiền bạc của cải   3 là bạn có thể kêu gọi người khác để họ có cùng mục đích như bạn"
+    },
+    {
+        "input": "tạo thế như cả hoá cầu cho lúc ta nào tính cùng hàng mang toàn lợi những ta chúng và người có mọi ra tất chúng để",
+        "output": "chúng ta tạo ra những hàng hoá mang tính toàn cầu như thế nào để có lợi cho chúng ta và tất cả mọi người cùng lúc"
+    },
+    {
+        "input": "ra và tính hoá ta cùng cầu ta nào để lợi cho hàng chúng lúc tạo tất chúng người như thế cả mọi toàn những mang có",
+        "output": "chúng ta tạo ra những hàng hoá mang tính toàn cầu như thế nào để có lợi cho chúng ta và tất cả mọi người cùng lúc"
+    },
+    {
+        "input": "và cho hoá tạo mọi hàng những cả ta thế tất chúng lúc cùng để tính toàn mang người nào như lợi ra cầu có ta chúng",
+        "output": "chúng ta tạo ra những hàng hoá mang tính toàn cầu như thế nào để có lợi cho chúng ta và tất cả mọi người cùng lúc"
+    },
+    {
+        "input": "bởi đối nhật mọi ký đôi tôi có đầu tất từ bộ với cả rất lúc sâu nghĩa đôi này đều ý tôi cảm và lúc sắc bắt xúc của giản dị phim",
+        "output": "và bộ phim này rất có ý nghĩa đối với tôi bởi mọi cảm xúc đôi lúc giản dị đôi lúc sâu sắc tất cả đều bắt đầu từ nhật ký của tôi"
+    },
+    {
+        "input": "từ giản bắt nhật tôi rất tôi lúc đầu nghĩa dị và lúc bởi đối của cảm sâu xúc cả tất mọi có với phim ký bộ đôi đều ý đôi sắc này",
+        "output": "và bộ phim này rất có ý nghĩa đối với tôi bởi mọi cảm xúc đôi lúc giản dị đôi lúc sâu sắc tất cả đều bắt đầu từ nhật ký của tôi"
+    },
+    {
+        "input": "này bởi giản tôi bộ từ bắt rất xúc có đối mọi ký của ý với nghĩa phim cảm tất đôi dị lúc lúc cả và sâu đều đôi tôi sắc đầu nhật",
+        "output": "và bộ phim này rất có ý nghĩa đối với tôi bởi mọi cảm xúc đôi lúc giản dị đôi lúc sâu sắc tất cả đều bắt đầu từ nhật ký của tôi"
+    },
+    {
+        "input": "được tiền ra thực số chất in không",
+        "output": "số tiền thực chất không được in ra"
+    },
+    {
+        "input": "chất in ra thực không số tiền được",
+        "output": "số tiền thực chất không được in ra"
+    },
+    {
+        "input": "không in thực số chất tiền ra được",
+        "output": "số tiền thực chất không được in ra"
+    },
+    {
+        "input": "tế thực lưu hơn lần tiền dự thực lần giấy trong ba số trữ tổng thông ba là lượng gấp",
+        "output": "gấp ba lần thực tế là hơn ba lần tổng số lượng dự trữ tiền giấy thực trong lưu thông"
+    },
+    {
+        "input": "thông giấy tiền là lần dự số tổng ba lượng gấp hơn thực tế trong trữ lưu lần thực ba",
+        "output": "gấp ba lần thực tế là hơn ba lần tổng số lượng dự trữ tiền giấy thực trong lưu thông"
+    },
+    {
+        "input": "lần tế lần dự ba trữ lượng giấy thông số tổng tiền hơn lưu trong thực gấp thực là ba",
+        "output": "gấp ba lần thực tế là hơn ba lần tổng số lượng dự trữ tiền giấy thực trong lưu thông"
+    },
+    {
+        "input": "mỗi đời trong mà chọi suốt sáu chống tiếp trong vẫn tục mình đang và có tôi ngày năm tôi cuộc",
+        "output": "mà tôi có trong suốt sáu năm trong cuộc đời mình và tôi vẫn đang tiếp tục chống chọi mỗi ngày"
+    },
+    {
+        "input": "tiếp có đời trong suốt vẫn mà sáu mỗi chọi tôi trong năm tục chống ngày và cuộc mình tôi đang",
+        "output": "mà tôi có trong suốt sáu năm trong cuộc đời mình và tôi vẫn đang tiếp tục chống chọi mỗi ngày"
+    },
+    {
+        "input": "chọi tôi mỗi đời mình trong đang ngày chống trong vẫn sáu năm suốt và mà cuộc tục có tiếp tôi",
+        "output": "mà tôi có trong suốt sáu năm trong cuộc đời mình và tôi vẫn đang tiếp tục chống chọi mỗi ngày"
+    },
+    {
+        "input": "không làm mắn thành người mắn những tôi bờ may một tránh không nhưng sót nhảy đã biến trong trong đó sống xa tôi một may một và nhưng điều vực và xuống người nhìn những trong được người",
+        "output": "và tôi đã không làm điều đó biến tôi thành một trong những người may mắn một trong nhưng người tránh xa được bờ vực và nhìn xuống nhưng không nhảy một trong những người may mắn sống sót"
+    },
+    {
+        "input": "một người may không những một sống đã những nhưng thành may xa không tôi tôi đó điều người trong và vực nhảy được trong sót nhưng tránh xuống mắn mắn trong nhìn người biến bờ làm một và",
+        "output": "và tôi đã không làm điều đó biến tôi thành một trong những người may mắn một trong nhưng người tránh xa được bờ vực và nhìn xuống nhưng không nhảy một trong những người may mắn sống sót"
+    },
+    {
+        "input": "và nhưng không làm người may sót những đó trong nhìn người may điều một những và không sống trong thành tôi một nhưng vực trong biến bờ xa mắn được tránh xuống người một nhảy mắn tôi đã",
+        "output": "và tôi đã không làm điều đó biến tôi thành một trong những người may mắn một trong nhưng người tránh xa được bờ vực và nhìn xuống nhưng không nhảy một trong những người may mắn sống sót"
+    },
+    {
+        "input": "tôi sống toàn nghĩ tôi nhau hoàn dài thời luôn khác người chứng sống cảm trầm người con và bị gian trong sợ hai tôi một cuộc hãi một khác đã",
+        "output": "tôi bị chứng trầm cảm và trong một thời gian dài tôi nghĩ tôi đã sống hai cuộc sống hoàn toàn khác nhau một con người luôn sợ hãi người khác"
+    },
+    {
+        "input": "tôi cảm hai đã trầm một tôi sống tôi hãi bị cuộc dài toàn và khác trong sợ người nghĩ gian thời chứng hoàn con luôn người sống nhau khác một",
+        "output": "tôi bị chứng trầm cảm và trong một thời gian dài tôi nghĩ tôi đã sống hai cuộc sống hoàn toàn khác nhau một con người luôn sợ hãi người khác"
+    },
+    {
+        "input": "tôi đã bị toàn hãi một trong luôn nhau gian cảm tôi thời hai cuộc khác sợ một và sống người người nghĩ dài sống hoàn tôi con khác chứng trầm",
+        "output": "tôi bị chứng trầm cảm và trong một thời gian dài tôi nghĩ tôi đã sống hai cuộc sống hoàn toàn khác nhau một con người luôn sợ hãi người khác"
+    },
+    {
+        "input": "bệnh trầm là cảm nó thật bệnh cuộc cảm không tôi sự thuỷ thực và trung nghĩ chứng và thì nếu một đấu lại lần tranh ngày đó vì tại bởi đứng mỗi về lúc nó là là đó đậu đây tôi cho là nghĩ nói trầm nữa đã đó phải này về",
+        "output": "tôi đã nghĩ về nó mỗi ngày và nếu nói cho thật trung thực thì lúc này đứng tại đây tôi lại nghĩ về nó lần nữa bởi vì đó là một chứng bệnh đó là cuộc đấu tranh đó là sự trầm cảm và trầm cảm không phải là bệnh thuỷ đậu"
+    },
+    {
+        "input": "nó và là vì trầm cuộc nghĩ bởi cho đây nói là cảm tôi thì bệnh nếu cảm mỗi đấu đó một về và lúc tranh nghĩ tại nữa đậu đã lần phải không đó chứng là lại nó trầm bệnh trung tôi là sự này thuỷ thực thật đứng ngày về đó",
+        "output": "tôi đã nghĩ về nó mỗi ngày và nếu nói cho thật trung thực thì lúc này đứng tại đây tôi lại nghĩ về nó lần nữa bởi vì đó là một chứng bệnh đó là cuộc đấu tranh đó là sự trầm cảm và trầm cảm không phải là bệnh thuỷ đậu"
+    },
+    {
+        "input": "thuỷ không tôi nó thì mỗi lúc tại cuộc và đậu lần trung đấu chứng là nếu cho tôi nói vì đã nó cảm là bệnh trầm nữa sự thực là lại thật này phải ngày là đây cảm tranh về bệnh đó đó về trầm bởi nghĩ đó và đứng một nghĩ",
+        "output": "tôi đã nghĩ về nó mỗi ngày và nếu nói cho thật trung thực thì lúc này đứng tại đây tôi lại nghĩ về nó lần nữa bởi vì đó là một chứng bệnh đó là cuộc đấu tranh đó là sự trầm cảm và trầm cảm không phải là bệnh thuỷ đậu"
+    },
+    {
+        "input": "bạn lần với và đi nó ra một không mãi đấu nó mãi",
+        "output": "bạn không đấu với nó một lần và nó ra đi mãi mãi"
+    },
+    {
+        "input": "lần và đấu một nó bạn mãi ra với mãi nó không đi",
+        "output": "bạn không đấu với nó một lần và nó ra đi mãi mãi"
+    },
+    {
+        "input": "và lần nó đấu đi nó bạn không mãi một với mãi ra",
+        "output": "bạn không đấu với nó một lần và nó ra đi mãi mãi"
+    },
+    {
+        "input": "chọi khổ mình bắt tối chống những đang người bắt tôi những đầu người phải giấu vào đầu từ cần bạn bóng từ với đau",
+        "output": "cần phải bắt đầu từ tôi từ bạn bắt đầu với những người đang chống chọi khổ đau những người giấu mình vào bóng tối"
+    },
+    {
+        "input": "phải tôi từ đang từ bóng khổ đầu người chống đầu cần giấu vào bắt những chọi những bạn mình bắt người với đau tối",
+        "output": "cần phải bắt đầu từ tôi từ bạn bắt đầu với những người đang chống chọi khổ đau những người giấu mình vào bóng tối"
+    },
+    {
+        "input": "người từ những bạn bắt khổ những tôi từ với đầu chống chọi bóng người mình đau phải đầu giấu bắt tối vào đang cần",
+        "output": "cần phải bắt đầu từ tôi từ bạn bắt đầu với những người đang chống chọi khổ đau những người giấu mình vào bóng tối"
+    },
+    {
+        "input": "nhận cách phải thế chúng thực nên thân chống chấp ai chính bản mà khi đau vì ok một phải nên ta chọi cũng nơi trung để mình nhau khổ tự dạy với trở chúng là giới nhận thấy xây chúng ta ta",
+        "output": "mà là xây nên một thế giới để dạy nhau cách tự chấp nhận mình nơi chúng ta ok với chính bản thân vì khi chúng ta trở nên trung thực chúng ta nhận thấy ai cũng phải chống chọi phải đau khổ"
+    },
+    {
+        "input": "ta phải xây đau ok ai vì cũng thấy chính chúng bản tự mình chúng thế là khi trung nhận nhau ta nên chọi nơi dạy phải trở giới chống khổ nên một chúng để thân cách ta mà với thực chấp nhận",
+        "output": "mà là xây nên một thế giới để dạy nhau cách tự chấp nhận mình nơi chúng ta ok với chính bản thân vì khi chúng ta trở nên trung thực chúng ta nhận thấy ai cũng phải chống chọi phải đau khổ"
+    },
+    {
+        "input": "một cũng chúng bản chúng trở thực thấy phải với để ta nên nhau mình nên là chống chọi nơi dạy chấp giới trung ta đau chính tự xây cách ta mà thế ok khi ai chúng vì nhận thân nhận khổ phải",
+        "output": "mà là xây nên một thế giới để dạy nhau cách tự chấp nhận mình nơi chúng ta ok với chính bản thân vì khi chúng ta trở nên trung thực chúng ta nhận thấy ai cũng phải chống chọi phải đau khổ"
+    },
+    {
+        "input": "cố trước đề một được thay ngay đó để không rằng như mắt tự muốn dù ít vào với gắng giải là vấn quyết ý ti",
+        "output": "thay vào đó là cố gắng với một ít tự ti để giải quyết vấn đề ngay trước mắt dù rằng không được như ý muốn"
+    },
+    {
+        "input": "ý mắt không muốn cố một vào vấn giải như tự đề rằng thay là với quyết để dù ti ít đó ngay trước được gắng",
+        "output": "thay vào đó là cố gắng với một ít tự ti để giải quyết vấn đề ngay trước mắt dù rằng không được như ý muốn"
+    },
+    {
+        "input": "giải một ý với ngay mắt muốn trước đó ít cố vấn đề được thay là vào để ti dù tự quyết không rằng như gắng",
+        "output": "thay vào đó là cố gắng với một ít tự ti để giải quyết vấn đề ngay trước mắt dù rằng không được như ý muốn"
+    },
+    {
+        "input": "cho hình dễ cười như vậy dung",
+        "output": "cười như vậy cho dễ hình dung"
+    },
+    {
+        "input": "dễ dung như hình vậy cho cười",
+        "output": "cười như vậy cho dễ hình dung"
+    },
+    {
+        "input": "như dung cười hình dễ vậy cho",
+        "output": "cười như vậy cho dễ hình dung"
+    },
+    {
+        "input": "cụ thể tôi huống cứu tình các qua chúng và nghiên",
+        "output": "và chúng tôi nghiên cứu qua các tình huống cụ thể"
+    },
+    {
+        "input": "thể và tình qua nghiên chúng tôi cứu huống cụ các",
+        "output": "và chúng tôi nghiên cứu qua các tình huống cụ thể"
+    },
+    {
+        "input": "tôi cụ tình qua thể và cứu chúng nghiên huống các",
+        "output": "và chúng tôi nghiên cứu qua các tình huống cụ thể"
+    },
+    {
+        "input": "ở chỗ trống vì không đó có",
+        "output": "vì ở đó không có chỗ trống"
+    },
+    {
+        "input": "không chỗ đó ở vì trống có",
+        "output": "vì ở đó không có chỗ trống"
+    },
+    {
+        "input": "đó trống có ở vì chỗ không",
+        "output": "vì ở đó không có chỗ trống"
+    },
+    {
+        "input": "đã những và điêu phong khắc chỗ có cảnh chiếm tác phẩm",
+        "output": "đã có phong cảnh và những tác phẩm điêu khắc chiếm chỗ"
+    },
+    {
+        "input": "điêu khắc phong những có cảnh và chỗ đã chiếm tác phẩm",
+        "output": "đã có phong cảnh và những tác phẩm điêu khắc chiếm chỗ"
+    },
+    {
+        "input": "tác cảnh chỗ điêu phẩm và chiếm những có đã khắc phong",
+        "output": "đã có phong cảnh và những tác phẩm điêu khắc chiếm chỗ"
+    },
+    {
+        "input": "ở đó phải những với nó toà khác nhà biệt",
+        "output": "nó phải khác biệt với những toà nhà ở đó"
+    },
+    {
+        "input": "đó nhà khác ở phải biệt nó những toà với",
+        "output": "nó phải khác biệt với những toà nhà ở đó"
+    },
+    {
+        "input": "đó khác nó biệt nhà những ở toà phải với",
+        "output": "nó phải khác biệt với những toà nhà ở đó"
+    },
+    {
+        "input": "và chứa ra khi hơi theo hình xì và có thể cũng vật nào được dạng bên qua của đỉnh mặt nở",
+        "output": "nở ra theo hình dạng của vật chứa và có thể xì hơi khi nào cũng được   qua đỉnh và mặt bên"
+    },
+    {
+        "input": "mặt có bên qua và của khi nở nào dạng hơi và xì theo ra cũng được vật hình đỉnh chứa thể",
+        "output": "nở ra theo hình dạng của vật chứa và có thể xì hơi khi nào cũng được   qua đỉnh và mặt bên"
+    },
+    {
+        "input": "khi của và bên chứa xì qua thể được và đỉnh theo nở vật cũng nào có ra hình mặt dạng hơi",
+        "output": "nở ra theo hình dạng của vật chứa và có thể xì hơi khi nào cũng được   qua đỉnh và mặt bên"
+    },
+    {
+        "input": "bề nó tôi vì mặt đến và vậy đụng không chúng của thể",
+        "output": "và vì vậy chúng tôi không thể đụng đến bề mặt của nó"
+    },
+    {
+        "input": "và mặt thể đến chúng bề vậy đụng vì không của tôi nó",
+        "output": "và vì vậy chúng tôi không thể đụng đến bề mặt của nó"
+    },
+    {
+        "input": "vì chúng vậy nó mặt bề đụng của thể đến tôi không và",
+        "output": "và vì vậy chúng tôi không thể đụng đến bề mặt của nó"
+    },
+    {
+        "input": "kéo được lên",
+        "output": "được kéo lên"
+    },
+    {
+        "input": "lên được kéo",
+        "output": "được kéo lên"
+    },
+    {
+        "input": "lên được kéo",
+        "output": "được kéo lên"
+    },
+    {
+        "input": "khí suất áp và bơm thấp được với phồng",
+        "output": "và được bơm phồng với khí áp suất thấp"
+    },
+    {
+        "input": "với khí thấp và phồng được bơm áp suất",
+        "output": "và được bơm phồng với khí áp suất thấp"
+    },
+    {
+        "input": "được với áp suất bơm khí và thấp phồng",
+        "output": "và được bơm phồng với khí áp suất thấp"
+    },
+    {
+        "input": "được rồi cáp cố định bằng dây",
+        "output": "rồi được cố định bằng dây cáp"
+    },
+    {
+        "input": "định cố bằng dây được cáp rồi",
+        "output": "rồi được cố định bằng dây cáp"
+    },
+    {
+        "input": "rồi bằng dây cố được định cáp",
+        "output": "rồi được cố định bằng dây cáp"
+    },
+    {
+        "input": "đáy lại ở dằn và nước bằng dưới",
+        "output": "và dằn lại bằng nước ở dưới đáy"
+    },
+    {
+        "input": "bằng lại dưới dằn nước đáy và ở",
+        "output": "và dằn lại bằng nước ở dưới đáy"
+    },
+    {
+        "input": "ở và đáy dằn nước bằng dưới lại",
+        "output": "và dằn lại bằng nước ở dưới đáy"
+    },
+    {
+        "input": "điều thấu và họ sự đó hiểu thật",
+        "output": "và họ thật sự thấu hiểu điều đó"
+    },
+    {
+        "input": "thấu điều và sự thật hiểu đó họ",
+        "output": "và họ thật sự thấu hiểu điều đó"
+    },
+    {
+        "input": "và thật đó họ điều sự thấu hiểu",
+        "output": "và họ thật sự thấu hiểu điều đó"
+    },
+    {
+        "input": "đã được chi 3 tỷ các hôm việc cho tử điện la ra đó sắm đô thiết mua bị",
+        "output": "3 tỷ đô la đã được chi ra hôm đó cho việc mua sắm các thiết bị điện tử"
+    },
+    {
+        "input": "đã hôm các được mua đô điện ra sắm việc la cho tỷ đó 3 chi bị tử thiết",
+        "output": "3 tỷ đô la đã được chi ra hôm đó cho việc mua sắm các thiết bị điện tử"
+    },
+    {
+        "input": "các la thiết 3 tử được cho ra đó điện đô đã việc hôm bị tỷ mua chi sắm",
+        "output": "3 tỷ đô la đã được chi ra hôm đó cho việc mua sắm các thiết bị điện tử"
+    },
+    {
+        "input": "hiểu khó thật",
+        "output": "thật khó hiểu"
+    },
+    {
+        "input": "thật hiểu khó",
+        "output": "thật khó hiểu"
+    },
+    {
+        "input": "hiểu khó thật",
+        "output": "thật khó hiểu"
+    },
+    {
+        "input": "dưỡng làm luôn truyền viện đó thay ta đổi trước thống đã cách lão để với",
+        "output": "để thay đổi cách ta đã luôn làm trước đó với viện dưỡng lão truyền thống"
+    },
+    {
+        "input": "đó đổi trước để thống truyền thay với ta dưỡng viện làm cách lão đã luôn",
+        "output": "để thay đổi cách ta đã luôn làm trước đó với viện dưỡng lão truyền thống"
+    },
+    {
+        "input": "thay trước lão cách đã làm luôn viện thống đổi với truyền ta đó để dưỡng",
+        "output": "để thay đổi cách ta đã luôn làm trước đó với viện dưỡng lão truyền thống"
+    },
+    {
+        "input": "hoặc một gia rõ thao về không này tham đi gì nơi nên con đó tương thể hoặc điện ràng tự cái đoán là hơn tốt vì tử thuộc chơi con con nên là",
+        "output": "nên con đoán là tốt hơn con nên đi chơi điện tử hoặc tham gia thể thao hoặc một cái gì đó tương tự vì rõ ràng là con không thuộc về nơi này"
+    },
+    {
+        "input": "vì con gì là một ràng gia tự thuộc tốt là cái hơn nơi này con không thao tương đoán đó nên về tử hoặc thể con rõ chơi điện nên tham đi hoặc",
+        "output": "nên con đoán là tốt hơn con nên đi chơi điện tử hoặc tham gia thể thao hoặc một cái gì đó tương tự vì rõ ràng là con không thuộc về nơi này"
+    },
+    {
+        "input": "đoán là ràng rõ về tương nơi gia con là tự hơn một vì hoặc hoặc đi không nên tử chơi nên điện con tốt thao thể cái con thuộc đó này tham gì",
+        "output": "nên con đoán là tốt hơn con nên đi chơi điện tử hoặc tham gia thể thao hoặc một cái gì đó tương tự vì rõ ràng là con không thuộc về nơi này"
+    },
+    {
+        "input": "về tưởng tạo sự đó là sáng ý",
+        "output": "đó là ý tưởng về sự sáng tạo"
+    },
+    {
+        "input": "đó tạo sự là sáng ý tưởng về",
+        "output": "đó là ý tưởng về sự sáng tạo"
+    },
+    {
+        "input": "sáng ý tạo về sự là đó tưởng",
+        "output": "đó là ý tưởng về sự sáng tạo"
+    },
+    {
+        "input": "sau đổi trở đó rồi trong lại đó mới",
+        "output": "rồi sau đó trở lại đổi mới trong đó"
+    },
+    {
+        "input": "mới trở rồi đổi trong lại đó sau đó",
+        "output": "rồi sau đó trở lại đổi mới trong đó"
+    },
+    {
+        "input": "mới rồi đó đổi lại đó sau trở trong",
+        "output": "rồi sau đó trở lại đổi mới trong đó"
+    },
+    {
+        "input": "nhiều ta chúng dụng nó nhất sử là cũng cái",
+        "output": "nó cũng là cái chúng ta sử dụng nhiều nhất"
+    },
+    {
+        "input": "chúng là nhất sử nhiều ta cái nó dụng cũng",
+        "output": "nó cũng là cái chúng ta sử dụng nhiều nhất"
+    },
+    {
+        "input": "dụng là sử chúng nhiều nó cũng nhất cái ta",
+        "output": "nó cũng là cái chúng ta sử dụng nhiều nhất"
+    },
+    {
+        "input": "mà bạn dùng nhân cái chữ tiện phông đó thích tôi",
+        "output": "nhân tiện tôi thích cái phông chữ mà bạn dùng đó"
+    },
+    {
+        "input": "chữ thích dùng nhân đó tôi tiện phông bạn mà cái",
+        "output": "nhân tiện tôi thích cái phông chữ mà bạn dùng đó"
+    },
+    {
+        "input": "chữ tiện thích tôi mà cái đó bạn dùng nhân phông",
+        "output": "nhân tiện tôi thích cái phông chữ mà bạn dùng đó"
+    },
+    {
+        "input": "đang này các phụ đó tất và tất lê có đó gen thanh khi phối công chúng vũ ta âm cơ âm và khoẻ mình nói chúng có ai vì và những như chúng quan phát sự thanh quản bởi cả để cả giây nhạc mạnh xem ba hợp tạo điều phải thực thể ta các trách ra ta thanh",
+        "output": "giây thanh quản này khoẻ mạnh và ai đó đang nói và chúng ta có thể xem mình như những vũ công ba lê thanh nhạc bởi vì chúng ta phải phối hợp tất cả các cơ quan phát âm khi tạo ra âm thanh và tất cả chúng ta thực sự có các gen để phụ trách điều đó"
+    },
+    {
+        "input": "các tất và ta chúng thể đó công âm nhạc đang bởi và vũ ra thực để tất ba thanh xem sự gen nói thanh phối hợp quản ta cả vì phát thanh phải chúng phụ chúng cả đó quan những mạnh mình này các có điều ai khoẻ giây có tạo khi cơ như và âm lê ta trách",
+        "output": "giây thanh quản này khoẻ mạnh và ai đó đang nói và chúng ta có thể xem mình như những vũ công ba lê thanh nhạc bởi vì chúng ta phải phối hợp tất cả các cơ quan phát âm khi tạo ra âm thanh và tất cả chúng ta thực sự có các gen để phụ trách điều đó"
+    },
+    {
+        "input": "mạnh các này ta có đang hợp những và các âm ta khi chúng vũ tất gen thanh tạo bởi giây quan phải và công để âm mình cả có ra lê trách tất quản điều nhạc đó xem ta và thể vì cơ sự phát đó khoẻ ai chúng như ba thanh thanh thực phụ chúng phối nói cả",
+        "output": "giây thanh quản này khoẻ mạnh và ai đó đang nói và chúng ta có thể xem mình như những vũ công ba lê thanh nhạc bởi vì chúng ta phải phối hợp tất cả các cơ quan phát âm khi tạo ra âm thanh và tất cả chúng ta thực sự có các gen để phụ trách điều đó"
+    },
+    {
+        "input": "tán thưởng",
+        "output": "tán thưởng"
+    },
+    {
+        "input": "tán thưởng",
+        "output": "tán thưởng"
+    },
+    {
+        "input": "thưởng tán",
+        "output": "tán thưởng"
+    },
+    {
+        "input": "tin chẳng thuyết những vào học",
+        "output": "chẳng tin vào những học thuyết"
+    },
+    {
+        "input": "tin học những chẳng vào thuyết",
+        "output": "chẳng tin vào những học thuyết"
+    },
+    {
+        "input": "học vào chẳng thuyết tin những",
+        "output": "chẳng tin vào những học thuyết"
+    },
+    {
+        "input": "phác thảo tôi ra một đã khuôn khổ rộng",
+        "output": "tôi đã phác thảo ra một khuôn khổ rộng"
+    },
+    {
+        "input": "khổ tôi rộng ra một phác đã khuôn thảo",
+        "output": "tôi đã phác thảo ra một khuôn khổ rộng"
+    },
+    {
+        "input": "khuôn một phác khổ rộng đã thảo tôi ra",
+        "output": "tôi đã phác thảo ra một khuôn khổ rộng"
+    },
+    {
+        "input": "ông sẽ cho bữa theo chuẩn tôi tin mình thì bị ai không tự tối",
+        "output": "theo tôi thì không ai tin ông sẽ tự chuẩn bị bữa tối cho mình"
+    },
+    {
+        "input": "sẽ tin chuẩn bữa tôi tự cho bị ông không mình thì ai tối theo",
+        "output": "theo tôi thì không ai tin ông sẽ tự chuẩn bị bữa tối cho mình"
+    },
+    {
+        "input": "ai ông sẽ thì tối không chuẩn cho tin tự tôi theo bị mình bữa",
+        "output": "theo tôi thì không ai tin ông sẽ tự chuẩn bị bữa tối cho mình"
+    },
+    {
+        "input": "thời cười đó điểm",
+        "output": "cười thời điểm đó"
+    },
+    {
+        "input": "điểm đó cười thời",
+        "output": "cười thời điểm đó"
+    },
+    {
+        "input": "đó cười thời điểm",
+        "output": "cười thời điểm đó"
+    },
+    {
+        "input": "từ bàn với đã trong khuỷu của nâng bà gà mình cổ tôi đó và chỉ 1 câu phần chặt cơn sinh đang siết theo tiếp tay đau con lấy chuyện lên tự trên",
+        "output": "và phần tiếp theo của câu chuyện bà tôi từ trên bàn sinh đang trong cơn đau đã tự nâng mình lên chỉ với 1 khuỷu tay siết chặt lấy cổ con gà đó"
+    },
+    {
+        "input": "1 mình cơn gà lên bàn siết tay câu tôi bà đã đang phần khuỷu nâng con trên trong tự của chỉ chặt đau lấy sinh chuyện từ và với tiếp theo đó cổ",
+        "output": "và phần tiếp theo của câu chuyện bà tôi từ trên bàn sinh đang trong cơn đau đã tự nâng mình lên chỉ với 1 khuỷu tay siết chặt lấy cổ con gà đó"
+    },
+    {
+        "input": "lên siết chỉ đó đã câu đang sinh lấy bà 1 tay cơn phần gà bàn trên với tự và trong khuỷu tiếp tôi cổ đau từ nâng chặt con mình chuyện theo của",
+        "output": "và phần tiếp theo của câu chuyện bà tôi từ trên bàn sinh đang trong cơn đau đã tự nâng mình lên chỉ với 1 khuỷu tay siết chặt lấy cổ con gà đó"
+    },
+    {
+        "input": "biết không sao bạn các",
+        "output": "các bạn biết sao không"
+    },
+    {
+        "input": "không các sao biết bạn",
+        "output": "các bạn biết sao không"
+    },
+    {
+        "input": "biết bạn không sao các",
+        "output": "các bạn biết sao không"
+    },
+    {
+        "input": "sulfur gì cận cái không phím có hỏng gần lân bị không các đã bàn ra nên giãn ở cả phím giữa nó",
+        "output": "sulfur giãn ra ở giữa bàn phím đã bị hỏng nên không có các phím lân cận nó không gần cái gì cả"
+    },
+    {
+        "input": "phím hỏng không lân ở phím đã cả cái không bị giữa gì có giãn các cận ra nó sulfur nên gần bàn",
+        "output": "sulfur giãn ra ở giữa bàn phím đã bị hỏng nên không có các phím lân cận nó không gần cái gì cả"
+    },
+    {
+        "input": "cận cả giữa lân bàn nó bị có hỏng sulfur đã không ở gì không gần cái giãn các phím nên ra phím",
+        "output": "sulfur giãn ra ở giữa bàn phím đã bị hỏng nên không có các phím lân cận nó không gần cái gì cả"
+    },
+    {
+        "input": "trưởng tưởng với bộ ý tưởng xuất này ý lái những sự hiện nhiều tăng tiến sự kiểu chèo trước những hơn",
+        "output": "những ý tưởng kiểu này xuất hiện nhiều hơn trước những ý tưởng chèo lái sự tăng trưởng với sự tiến bộ"
+    },
+    {
+        "input": "nhiều những tưởng hiện tưởng này chèo lái xuất bộ trước sự với những ý tiến kiểu hơn ý trưởng tăng sự",
+        "output": "những ý tưởng kiểu này xuất hiện nhiều hơn trước những ý tưởng chèo lái sự tăng trưởng với sự tiến bộ"
+    },
+    {
+        "input": "trưởng chèo nhiều tưởng kiểu tiến ý với lái hơn tăng trước hiện những sự sự bộ tưởng ý này những xuất",
+        "output": "những ý tưởng kiểu này xuất hiện nhiều hơn trước những ý tưởng chèo lái sự tăng trưởng với sự tiến bộ"
+    },
+    {
+        "input": "tôi để một có hỏi sao câu giải thế lại tại và như thích",
+        "output": "và để giải thích tại sao lại như thế tôi có một câu hỏi"
+    },
+    {
+        "input": "giải và thế câu để sao như thích lại hỏi có tôi tại một",
+        "output": "và để giải thích tại sao lại như thế tôi có một câu hỏi"
+    },
+    {
+        "input": "và một sao tại thế có hỏi giải tôi để thích như lại câu",
+        "output": "và để giải thích tại sao lại như thế tôi có một câu hỏi"
+    },
+    {
+        "input": "nhiều lớn nhuận chữa thuốc triệu người cho nhưng lợi hơn thì nếu 1",
+        "output": "nhưng lợi nhuận thì lớn hơn nhiều nếu thuốc chữa cho 1 triệu người"
+    },
+    {
+        "input": "người nhuận triệu chữa 1 thuốc nhưng thì cho lợi nhiều lớn hơn nếu",
+        "output": "nhưng lợi nhuận thì lớn hơn nhiều nếu thuốc chữa cho 1 triệu người"
+    },
+    {
+        "input": "nếu thì nhuận chữa người thuốc hơn nhưng lợi 1 lớn nhiều triệu cho",
+        "output": "nhưng lợi nhuận thì lớn hơn nhiều nếu thuốc chữa cho 1 triệu người"
+    },
+    {
+        "input": "đang ta chúng giờ vẫn xảy nhưng đó vẫn chưa ra nó đến bây",
+        "output": "bây giờ chúng ta vẫn chưa đến đó nhưng nó vẫn đang xảy ra"
+    },
+    {
+        "input": "giờ xảy chưa đang bây nhưng đó nó vẫn đến vẫn ta chúng ra",
+        "output": "bây giờ chúng ta vẫn chưa đến đó nhưng nó vẫn đang xảy ra"
+    },
+    {
+        "input": "đang nhưng đến giờ chưa chúng nó bây xảy vẫn ra vẫn ta đó",
+        "output": "bây giờ chúng ta vẫn chưa đến đó nhưng nó vẫn đang xảy ra"
+    },
+    {
+        "input": "sự đẩy nghiên có cứu có nghĩa là người thúc mọi thế việc để cho đó hiện thực một việc và điều giới cả triển phát trên lợi và",
+        "output": "và điều đó có nghĩa là một sự thúc đẩy để thực hiện việc nghiên cứu và phát triển việc có lợi cho mọi người trên cả thế giới"
+    },
+    {
+        "input": "mọi cứu phát việc sự là nghiên thế có đẩy thúc việc để có giới trên triển điều người hiện cả lợi đó một và cho và thực nghĩa",
+        "output": "và điều đó có nghĩa là một sự thúc đẩy để thực hiện việc nghiên cứu và phát triển việc có lợi cho mọi người trên cả thế giới"
+    },
+    {
+        "input": "sự có là cho việc cứu hiện triển giới lợi việc và để thúc và phát nghĩa đó có đẩy trên một thế mọi người thực nghiên cả điều",
+        "output": "và điều đó có nghĩa là một sự thúc đẩy để thực hiện việc nghiên cứu và phát triển việc có lợi cho mọi người trên cả thế giới"
+    },
+    {
+        "input": "nó sẽ nhưng ra kỉ này xảy thế trong",
+        "output": "nhưng nó sẽ xảy ra trong thế kỉ này"
+    },
+    {
+        "input": "kỉ này trong thế ra nhưng sẽ xảy nó",
+        "output": "nhưng nó sẽ xảy ra trong thế kỉ này"
+    },
+    {
+        "input": "xảy thế sẽ này nó kỉ ra nhưng trong",
+        "output": "nhưng nó sẽ xảy ra trong thế kỉ này"
+    },
+    {
+        "input": "muôn tập sử trong đời lịch thể vào",
+        "output": "vào trong lịch sử tập thể muôn đời"
+    },
+    {
+        "input": "thể muôn tập trong sử vào lịch đời",
+        "output": "vào trong lịch sử tập thể muôn đời"
+    },
+    {
+        "input": "muôn tập đời sử vào lịch thể trong",
+        "output": "vào trong lịch sử tập thể muôn đời"
+    },
+    {
+        "input": "đã người 5 triệu làm nó",
+        "output": "5 triệu người đã làm nó"
+    },
+    {
+        "input": "làm triệu nó đã người 5",
+        "output": "5 triệu người đã làm nó"
+    },
+    {
+        "input": "đã nó làm người triệu 5",
+        "output": "5 triệu người đã làm nó"
+    },
+    {
+        "input": "độ vì hơn muối trong lại tinh bị băng muối cao các thể biển để cũng trong nồng nước lại lòng giữ",
+        "output": "nồng độ muối cũng cao hơn vì nước bị giữ lại trong các tinh thể băng để lại muối trong lòng biển"
+    },
+    {
+        "input": "các lại cũng trong biển nước hơn lòng lại độ vì băng trong tinh thể bị cao giữ nồng muối để muối",
+        "output": "nồng độ muối cũng cao hơn vì nước bị giữ lại trong các tinh thể băng để lại muối trong lòng biển"
+    },
+    {
+        "input": "muối lòng trong băng biển nước cao để độ cũng tinh giữ trong muối lại thể vì hơn bị các nồng lại",
+        "output": "nồng độ muối cũng cao hơn vì nước bị giữ lại trong các tinh thể băng để lại muối trong lòng biển"
+    },
+    {
+        "input": "một nên trở thiết vời thật tuyệt nổi bật kế",
+        "output": " một thiết kế tuyệt vời trở nên thật nổi bật"
+    },
+    {
+        "input": "một vời trở tuyệt nổi thật thiết bật nên kế",
+        "output": " một thiết kế tuyệt vời trở nên thật nổi bật"
+    },
+    {
+        "input": "trở nổi thật bật kế vời tuyệt nên một thiết",
+        "output": " một thiết kế tuyệt vời trở nên thật nổi bật"
+    },
+    {
+        "input": "đã hỏi chợt tôi tự",
+        "output": " tôi đã chợt tự hỏi"
+    },
+    {
+        "input": "đã tôi tự hỏi chợt",
+        "output": " tôi đã chợt tự hỏi"
+    },
+    {
+        "input": "tôi đã tự chợt hỏi",
+        "output": " tôi đã chợt tự hỏi"
+    },
+    {
+        "input": "sẽ kinh nhà 1 không vậy làm bao tế giờ",
+        "output": "1 nhà kinh tế sẽ không bao giờ làm vậy"
+    },
+    {
+        "input": "làm không vậy tế bao sẽ 1 kinh giờ nhà",
+        "output": "1 nhà kinh tế sẽ không bao giờ làm vậy"
+    },
+    {
+        "input": "làm giờ nhà bao 1 vậy tế sẽ không kinh",
+        "output": "1 nhà kinh tế sẽ không bao giờ làm vậy"
+    },
+    {
+        "input": "trẻ 6 1 trẻ phụ phụ 2 4 8 1 3 trên nữ nữ 1 7 trên",
+        "output": "1 2 3 4 trẻ trên 1 phụ nữ 6 7 8 trẻ trên 1 phụ nữ"
+    },
+    {
+        "input": "7 6 trên 1 nữ phụ 2 3 4 trên trẻ 8 nữ 1 phụ trẻ 1",
+        "output": "1 2 3 4 trẻ trên 1 phụ nữ 6 7 8 trẻ trên 1 phụ nữ"
+    },
+    {
+        "input": "8 4 trên phụ 3 nữ phụ 7 6 1 trẻ 2 1 nữ trẻ 1 trên",
+        "output": "1 2 3 4 trẻ trên 1 phụ nữ 6 7 8 trẻ trên 1 phụ nữ"
+    },
+    {
+        "input": "phải nó không gì là",
+        "output": "không phải nó là gì"
+    },
+    {
+        "input": "không phải nó gì là",
+        "output": "không phải nó là gì"
+    },
+    {
+        "input": "gì phải là nó không",
+        "output": "không phải nó là gì"
+    },
+    {
+        "input": "à không có lẽ",
+        "output": "à có lẽ không"
+    },
+    {
+        "input": "không lẽ có à",
+        "output": "à có lẽ không"
+    },
+    {
+        "input": "lẽ à có không",
+        "output": "à có lẽ không"
+    },
+    {
+        "input": "trăm ở bạn trên hoặc hàng biết khấu nói được đang người quay mà trước của sân phim chuyện phía bạn",
+        "output": "hoặc bạn biết nói chuyện ở phía trước của hàng trăm người trên sân khấu mà bạn đang được quay phim"
+    },
+    {
+        "input": "bạn người trên phía trước chuyện mà quay biết hoặc của nói hàng ở khấu trăm sân đang bạn được phim",
+        "output": "hoặc bạn biết nói chuyện ở phía trước của hàng trăm người trên sân khấu mà bạn đang được quay phim"
+    },
+    {
+        "input": "hoặc đang phim biết bạn trước bạn chuyện quay người hàng sân ở được của khấu phía trên trăm nói mà",
+        "output": "hoặc bạn biết nói chuyện ở phía trước của hàng trăm người trên sân khấu mà bạn đang được quay phim"
+    },
+    {
+        "input": "kinh nghiệm tôi có này chắc bạn",
+        "output": "tôi chắc bạn có kinh nghiệm này"
+    },
+    {
+        "input": "kinh tôi có chắc nghiệm bạn này",
+        "output": "tôi chắc bạn có kinh nghiệm này"
+    },
+    {
+        "input": "này bạn tôi nghiệm chắc có kinh",
+        "output": "tôi chắc bạn có kinh nghiệm này"
+    },
+    {
+        "input": "lì hơn thôi bạn là chỉ gan",
+        "output": "chỉ là bạn gan lì hơn thôi"
+    },
+    {
+        "input": "bạn là gan hơn lì chỉ thôi",
+        "output": "chỉ là bạn gan lì hơn thôi"
+    },
+    {
+        "input": "hơn bạn lì là thôi chỉ gan",
+        "output": "chỉ là bạn gan lì hơn thôi"
+    },
+    {
+        "input": "phần ty họ cho đa làm các công",
+        "output": "đa phần họ làm cho các công ty"
+    },
+    {
+        "input": "họ phần đa công làm ty cho các",
+        "output": "đa phần họ làm cho các công ty"
+    },
+    {
+        "input": "ty phần họ đa làm các cho công",
+        "output": "đa phần họ làm cho các công ty"
+    },
+    {
+        "input": "tiến vất đầu 3 vả có dự thật triển chưa án là cả gì vẫn năm",
+        "output": "3 năm đầu thật là vất vả dự án vẫn chưa có tiến triển gì cả"
+    },
+    {
+        "input": "chưa vả vất thật có 3 gì cả án năm triển là tiến dự vẫn đầu",
+        "output": "3 năm đầu thật là vất vả dự án vẫn chưa có tiến triển gì cả"
+    },
+    {
+        "input": "tiến đầu vẫn năm án cả vất 3 có là vả dự gì triển thật chưa",
+        "output": "3 năm đầu thật là vất vả dự án vẫn chưa có tiến triển gì cả"
+    },
+    {
+        "input": "đến tổ tác điểm một trung các cho và ví công nhau dụng một tâm dụ ty khoa nhà thẻ cửa chính cùng mở đã học như hợp chức các một phủ tín như",
+        "output": "ví dụ như một công ty thẻ tín dụng đã mở cửa một trung tâm như một điểm đến cho các nhà khoa học các tổ chức và chính phủ cùng nhau hợp tác"
+    },
+    {
+        "input": "trung mở chức ví và các tâm phủ chính đến khoa nhà cửa tín ty như công tác cho dụng các một dụ tổ học đã điểm hợp nhau cùng một một như thẻ",
+        "output": "ví dụ như một công ty thẻ tín dụng đã mở cửa một trung tâm như một điểm đến cho các nhà khoa học các tổ chức và chính phủ cùng nhau hợp tác"
+    },
+    {
+        "input": "ty chức một ví tâm các đến hợp tổ khoa và trung chính đã tác dụng một thẻ phủ cùng như nhau học tín điểm cửa như nhà mở các một công dụ cho",
+        "output": "ví dụ như một công ty thẻ tín dụng đã mở cửa một trung tâm như một điểm đến cho các nhà khoa học các tổ chức và chính phủ cùng nhau hợp tác"
+    },
+    {
+        "input": "trên đi nhỏ bộ của các nút dạng áo kia có đường nhận thể người vật mi như sơ chiếc bên",
+        "output": "có thể nhận dạng các vật nhỏ như chiếc nút trên áo sơ mi của người đi bộ bên kia đường"
+    },
+    {
+        "input": "dạng mi sơ đi nhỏ đường bộ như nút người của trên nhận bên áo chiếc các có kia thể vật",
+        "output": "có thể nhận dạng các vật nhỏ như chiếc nút trên áo sơ mi của người đi bộ bên kia đường"
+    },
+    {
+        "input": "các thể có áo vật nhận dạng nhỏ của bộ trên đi đường sơ người bên chiếc kia mi nút như",
+        "output": "có thể nhận dạng các vật nhỏ như chiếc nút trên áo sơ mi của người đi bộ bên kia đường"
+    },
+    {
+        "input": "hạn nó gian nhưng và xác độ phân giải sâu thời giới xung làm phát việc chuẩn sẽ khiến định không ổn không",
+        "output": "nhưng sẽ làm nó không ổn định và khiến thời gian phát xung không chuẩn xác giới hạn việc phân giải độ sâu"
+    },
+    {
+        "input": "xung sâu giải gian sẽ hạn ổn và chuẩn độ không việc xác khiến giới nó phát nhưng làm không thời phân định",
+        "output": "nhưng sẽ làm nó không ổn định và khiến thời gian phát xung không chuẩn xác giới hạn việc phân giải độ sâu"
+    },
+    {
+        "input": "giải phát nhưng xung việc nó định gian khiến sẽ và sâu không làm thời xác chuẩn hạn độ ổn giới không phân",
+        "output": "nhưng sẽ làm nó không ổn định và khiến thời gian phát xung không chuẩn xác giới hạn việc phân giải độ sâu"
+    },
+    {
+        "input": "kết ánh hợp lại chúng sáng rồi song đầu tại thành tách nhánh ra song phân hai sóng",
+        "output": "phân tách sóng ánh sáng thành hai nhánh song song rồi kết hợp chúng lại tại đầu ra"
+    },
+    {
+        "input": "ánh tách sóng tại ra hợp hai phân kết nhánh lại thành sáng rồi chúng đầu song song",
+        "output": "phân tách sóng ánh sáng thành hai nhánh song song rồi kết hợp chúng lại tại đầu ra"
+    },
+    {
+        "input": "tại tách nhánh lại chúng sóng sáng phân ánh ra đầu song kết hai thành rồi song hợp",
+        "output": "phân tách sóng ánh sáng thành hai nhánh song song rồi kết hợp chúng lại tại đầu ra"
+    },
+    {
+        "input": "chú khiến ai mất bất ngoại hướng toát phải bị kì không lẽ trừ mà mồ phương hôi có nai",
+        "output": "mà không khiến bất kì ai phải toát mồ hôi ngoại trừ có lẽ chú nai bị mất phương hướng"
+    },
+    {
+        "input": "không phương nai mất bị lẽ có ngoại kì khiến bất toát chú mồ phải hôi trừ mà hướng ai",
+        "output": "mà không khiến bất kì ai phải toát mồ hôi ngoại trừ có lẽ chú nai bị mất phương hướng"
+    },
+    {
+        "input": "ngoại không lẽ hướng kì phương có khiến nai phải hôi bị ai mất chú toát mà bất trừ mồ",
+        "output": "mà không khiến bất kì ai phải toát mồ hôi ngoại trừ có lẽ chú nai bị mất phương hướng"
+    },
+    {
+        "input": "sống đi và thì loại tháo căn chính mạng với đau 7 6 tôi cha bệnh đã là 2 đường đái cướp bệnh của là đây tim",
+        "output": "6 với bệnh đau tim đái tháo đường loại 2 thì là 7 và đây chính là căn bệnh đã cướp đi mạng sống của cha tôi"
+    },
+    {
+        "input": "đây 6 thì đã sống và loại của bệnh là bệnh là đi mạng cha tim với cướp 7 căn 2 tháo chính tôi đường đau đái",
+        "output": "6 với bệnh đau tim đái tháo đường loại 2 thì là 7 và đây chính là căn bệnh đã cướp đi mạng sống của cha tôi"
+    },
+    {
+        "input": "đau là bệnh đái thì của 6 2 cướp cha sống tim căn chính đã tháo đi mạng 7 và loại là tôi với đây bệnh đường",
+        "output": "6 với bệnh đau tim đái tháo đường loại 2 thì là 7 và đây chính là căn bệnh đã cướp đi mạng sống của cha tôi"
+    },
+    {
+        "input": "và hơn bất tiện",
+        "output": "và bất tiện hơn"
+    },
+    {
+        "input": "tiện bất và hơn",
+        "output": "và bất tiện hơn"
+    },
+    {
+        "input": "và tiện bất hơn",
+        "output": "và bất tiện hơn"
+    },
+    {
+        "input": "bạn mẫu hơn và nhiều hơn thấy sáng dễ ngây tìm hơn nên thấy ngất tạo hình sẽ",
+        "output": "nên bạn sẽ dễ thấy ngây ngất hơn sáng tạo hơn và tìm thấy nhiều mẫu hình hơn"
+    },
+    {
+        "input": "nhiều và thấy hơn dễ thấy sẽ tạo hình ngây ngất sáng hơn tìm mẫu nên bạn hơn",
+        "output": "nên bạn sẽ dễ thấy ngây ngất hơn sáng tạo hơn và tìm thấy nhiều mẫu hình hơn"
+    },
+    {
+        "input": "sáng hơn ngây thấy nên thấy sẽ tạo tìm hơn hình nhiều bạn mẫu dễ ngất và hơn",
+        "output": "nên bạn sẽ dễ thấy ngây ngất hơn sáng tạo hơn và tìm thấy nhiều mẫu hình hơn"
+    },
+    {
+        "input": "chí đó hình dựng phục ảnh tìm mẫu để xây bởi rất thuyết loại nhất ta kiếm định ảo bỏ não khi những vẫn chúng nó bộ nhưng đi được thậm đã tôi",
+        "output": "nhưng thậm chí khi tôi đã bỏ nó đi ảo ảnh vẫn rất thuyết phục bởi bộ não chúng ta được xây dựng để tìm kiếm những loại hình mẫu nhất định đó"
+    },
+    {
+        "input": "dựng ta xây đi đã hình phục định vẫn loại tôi rất nhất kiếm để ảnh thuyết nhưng não tìm bỏ nó chúng mẫu đó khi bộ ảo chí thậm những được bởi",
+        "output": "nhưng thậm chí khi tôi đã bỏ nó đi ảo ảnh vẫn rất thuyết phục bởi bộ não chúng ta được xây dựng để tìm kiếm những loại hình mẫu nhất định đó"
+    },
+    {
+        "input": "những đó nó đã dựng khi định não loại đi ảo tìm nhưng mẫu vẫn hình thuyết phục rất để ảnh được chí xây bởi nhất thậm bộ bỏ ta kiếm chúng tôi",
+        "output": "nhưng thậm chí khi tôi đã bỏ nó đi ảo ảnh vẫn rất thuyết phục bởi bộ não chúng ta được xây dựng để tìm kiếm những loại hình mẫu nhất định đó"
+    },
+    {
+        "input": "sẽ bào nghiên cứu định cấp trong dự ta chúng tế này những ngày tới",
+        "output": "trong những ngày này chúng ta dự định sẽ nghiên cứu tới cấp tế bào"
+    },
+    {
+        "input": "ta dự tế này nghiên tới ngày những trong chúng định sẽ bào cấp cứu",
+        "output": "trong những ngày này chúng ta dự định sẽ nghiên cứu tới cấp tế bào"
+    },
+    {
+        "input": "dự tế cấp những sẽ ngày này tới chúng nghiên trong cứu bào ta định",
+        "output": "trong những ngày này chúng ta dự định sẽ nghiên cứu tới cấp tế bào"
+    },
+    {
+        "input": "hại và đình chính sát gia mình",
+        "output": "và sát hại chính gia đình mình"
+    },
+    {
+        "input": "hại chính gia đình sát và mình",
+        "output": "và sát hại chính gia đình mình"
+    },
+    {
+        "input": "và mình hại đình sát chính gia",
+        "output": "và sát hại chính gia đình mình"
+    },
+    {
+        "input": "về lúc cách bị của đề làm hút sắp mẹ tư còn với thu này trong mà một người đang nghiên tôi tài cứu",
+        "output": "mà tôi còn bị thu hút với tư cách của một người sắp làm mẹ trong lúc đang nghiên cứu về đề tài này"
+    },
+    {
+        "input": "đang sắp bị người làm tài thu cách đề lúc mẹ tư còn này trong nghiên cứu về hút của với tôi một mà",
+        "output": "mà tôi còn bị thu hút với tư cách của một người sắp làm mẹ trong lúc đang nghiên cứu về đề tài này"
+    },
+    {
+        "input": "cách hút với đang lúc đề mẹ bị về làm tôi sắp trong của còn người tư cứu một tài này thu nghiên mà",
+        "output": "mà tôi còn bị thu hút với tư cách của một người sắp làm mẹ trong lúc đang nghiên cứu về đề tài này"
+    },
+    {
+        "input": "danh nguồn từ trưng những gọi một thế tôi giới còn tiếp bào người ngoài như của mà truyền mẹ là nhận thiếp bên những thai thông di đặc tấm tin",
+        "output": "bào thai còn tiếp nhận những đặc trưng của người mẹ như một nguồn thông tin mà tôi gọi là những tấm danh thiếp di truyền từ thế giới bên ngoài"
+    },
+    {
+        "input": "mà bên gọi từ nguồn tiếp truyền mẹ di ngoài là người đặc danh những bào những một thông của nhận như tôi thai trưng còn tấm tin giới thiếp thế",
+        "output": "bào thai còn tiếp nhận những đặc trưng của người mẹ như một nguồn thông tin mà tôi gọi là những tấm danh thiếp di truyền từ thế giới bên ngoài"
+    },
+    {
+        "input": "bào những gọi đặc tiếp ngoài những tôi thông người trưng nguồn một là còn di thai từ của nhận truyền tin danh mẹ thế như mà bên tấm giới thiếp",
+        "output": "bào thai còn tiếp nhận những đặc trưng của người mẹ như một nguồn thông tin mà tôi gọi là những tấm danh thiếp di truyền từ thế giới bên ngoài"
+    },
+    {
+        "input": "hệ cải của cách ra nhất tìm thế thể khoẻ sức theo thiện là và tiếp mà trạng tốt để",
+        "output": "mà là tìm ra cách tốt nhất để cải thiện sức khoẻ và thể trạng của thế hệ tiếp theo"
+    },
+    {
+        "input": "thể mà để tốt cách sức ra trạng của khoẻ nhất và hệ thế tìm tiếp là thiện theo cải",
+        "output": "mà là tìm ra cách tốt nhất để cải thiện sức khoẻ và thể trạng của thế hệ tiếp theo"
+    },
+    {
+        "input": "tốt mà nhất hệ khoẻ trạng cải ra thể cách tiếp là sức thế và của tìm thiện theo để",
+        "output": "mà là tìm ra cách tốt nhất để cải thiện sức khoẻ và thể trạng của thế hệ tiếp theo"
+    },
+    {
+        "input": "mật thứ khác tất với khẩu cả và những tất cả các",
+        "output": "với tất cả các mật khẩu và tất cả những thứ khác"
+    },
+    {
+        "input": "cả thứ cả khẩu những khác với các mật và tất tất",
+        "output": "với tất cả các mật khẩu và tất cả những thứ khác"
+    },
+    {
+        "input": "và khẩu thứ mật khác cả tất tất những với cả các",
+        "output": "với tất cả các mật khẩu và tất cả những thứ khác"
+    },
+    {
+        "input": "một rõ đề là ràng đây vấn",
+        "output": "rõ ràng đây là một vấn đề"
+    },
+    {
+        "input": "một đây là vấn đề rõ ràng",
+        "output": "rõ ràng đây là một vấn đề"
+    },
+    {
+        "input": "đây vấn một rõ là ràng đề",
+        "output": "rõ ràng đây là một vấn đề"
+    },
+    {
+        "input": "máy bởi điều đang tính mọi hành được tất thứ cả",
+        "output": "tất cả mọi thứ đang được điều hành bởi máy tính"
+    },
+    {
+        "input": "tất được mọi hành thứ đang điều cả tính máy bởi",
+        "output": "tất cả mọi thứ đang được điều hành bởi máy tính"
+    },
+    {
+        "input": "mọi tất hành tính bởi cả thứ điều đang được máy",
+        "output": "tất cả mọi thứ đang được điều hành bởi máy tính"
+    },
+    {
+        "input": "ta thành thực chúng một vấn trở điều và sự này của đê",
+        "output": "và điều này thực sự trở thành một vấn đê của chúng ta"
+    },
+    {
+        "input": "trở điều một chúng của thực ta vấn này đê thành sự và",
+        "output": "và điều này thực sự trở thành một vấn đê của chúng ta"
+    },
+    {
+        "input": "của ta một vấn thành điều và chúng đê trở thực sự này",
+        "output": "và điều này thực sự trở thành một vấn đê của chúng ta"
+    },
+    {
+        "input": "không khi vậy vỗ sự bị chúng ta thể là điều có thứ có đây vì tay làm ngay cả nghĩa ở cười nhiều có chuẩn những",
+        "output": "cười vỗ tay vì vậy sự chuẩn bị có nghĩa là chúng ta có thể làm nhiều thứ ngay cả khi những điều không có ở đây"
+    },
+    {
+        "input": "cả thể thứ đây sự có những có ta vậy chuẩn vỗ khi tay không vì làm nghĩa là bị nhiều cười chúng điều ngay có ở",
+        "output": "cười vỗ tay vì vậy sự chuẩn bị có nghĩa là chúng ta có thể làm nhiều thứ ngay cả khi những điều không có ở đây"
+    },
+    {
+        "input": "vậy sự khi không tay vỗ chuẩn ngay thứ nghĩa cả vì là bị có chúng điều có ở làm nhiều ta cười có đây thể những",
+        "output": "cười vỗ tay vì vậy sự chuẩn bị có nghĩa là chúng ta có thể làm nhiều thứ ngay cả khi những điều không có ở đây"
+    },
+    {
+        "input": "mà dịch nghĩ về bằng trực vụ chúng ta hãy cả tất những tuyến",
+        "output": "hãy nghĩ về tất cả những dịch vụ mà chúng ta bằng trực tuyến"
+    },
+    {
+        "input": "về mà hãy những trực chúng cả nghĩ tuyến dịch ta bằng tất vụ",
+        "output": "hãy nghĩ về tất cả những dịch vụ mà chúng ta bằng trực tuyến"
+    },
+    {
+        "input": "dịch chúng nghĩ vụ hãy cả những bằng tuyến ta mà trực về tất",
+        "output": "hãy nghĩ về tất cả những dịch vụ mà chúng ta bằng trực tuyến"
+    },
+    {
+        "input": "tế bị khi bào chết động kinh thần vận",
+        "output": "khi tế bào thần kinh vận động bị chết"
+    },
+    {
+        "input": "động bị thần chết kinh bào vận tế khi",
+        "output": "khi tế bào thần kinh vận động bị chết"
+    },
+    {
+        "input": "thần bào tế động khi chết vận bị kinh",
+        "output": "khi tế bào thần kinh vận động bị chết"
+    },
+    {
+        "input": "đi kinh đang nghĩa là đang dây co thấy dần lại thị giác cho thần chúng chết",
+        "output": "cho thấy dây thần kinh thị giác đang co lại nghĩa là chúng đang dần chết đi"
+    },
+    {
+        "input": "đang dần là thần cho giác đi lại thấy thị co kinh chết dây nghĩa chúng đang",
+        "output": "cho thấy dây thần kinh thị giác đang co lại nghĩa là chúng đang dần chết đi"
+    },
+    {
+        "input": "giác co lại là kinh cho chúng thấy chết đang thần dây nghĩa đang thị đi dần",
+        "output": "cho thấy dây thần kinh thị giác đang co lại nghĩa là chúng đang dần chết đi"
+    },
+    {
+        "input": "kiện sự 1 trao cho mà 1 không 1 và bạn khoảnh mà thành khắc thế tôi danh công giống hiệu với thứ thấy như giới",
+        "output": "không giống với thành công thứ mà tôi thấy như 1 sự kiện 1 khoảnh khắc và 1 danh hiệu mà thế giới trao cho bạn"
+    },
+    {
+        "input": "thành khắc tôi khoảnh 1 1 mà thứ 1 công kiện như với sự không danh và mà thế cho hiệu trao thấy bạn giới giống",
+        "output": "không giống với thành công thứ mà tôi thấy như 1 sự kiện 1 khoảnh khắc và 1 danh hiệu mà thế giới trao cho bạn"
+    },
+    {
+        "input": "sự mà không khắc hiệu cho 1 giống công thấy bạn và giới khoảnh danh 1 1 thành mà thứ với kiện tôi như trao thế",
+        "output": "không giống với thành công thứ mà tôi thấy như 1 sự kiện 1 khoảnh khắc và 1 danh hiệu mà thế giới trao cho bạn"
+    },
+    {
+        "input": "đường tiếp là cũng gọi hình tinh việc ra để lỗ thần cố mô để nhà lý xuất nhà do và ý một làm thứ cho hổng tục là lối dệt trong sản được dây",
+        "output": "thứ được gọi là đường dây tinh thần một lỗ hổng cố ý trong mô hình để cho nhà dệt nhà sản xuất lối ra và cũng là lý do để tiếp tục làm việc"
+    },
+    {
+        "input": "được lỗ làm để gọi sản tục trong lối thứ cũng mô dây tinh tiếp ý cố xuất một việc dệt nhà là thần do là đường nhà cho ra hổng và lý để hình",
+        "output": "thứ được gọi là đường dây tinh thần một lỗ hổng cố ý trong mô hình để cho nhà dệt nhà sản xuất lối ra và cũng là lý do để tiếp tục làm việc"
+    },
+    {
+        "input": "nhà đường thứ do tinh thần việc ý sản là được lối tục làm ra hổng cũng cho mô để dây dệt xuất và gọi hình một là trong cố lỗ lý nhà để tiếp",
+        "output": "thứ được gọi là đường dây tinh thần một lỗ hổng cố ý trong mô hình để cho nhà dệt nhà sản xuất lối ra và cũng là lý do để tiếp tục làm việc"
+    },
+    {
+        "input": "mệnh tặng sứ của quà nếu tôi tôi với muốn món thành tôi công bạn đó sẽ các là",
+        "output": "đó sẽ là món quà tôi muốn tặng các bạn nếu tôi thành công với sứ mệnh của tôi"
+    },
+    {
+        "input": "công mệnh với đó muốn bạn quà tặng là thành món sứ tôi tôi các tôi sẽ nếu của",
+        "output": "đó sẽ là món quà tôi muốn tặng các bạn nếu tôi thành công với sứ mệnh của tôi"
+    },
+    {
+        "input": "mệnh muốn công thành tặng của món với tôi tôi quà đó các là sẽ sứ bạn tôi nếu",
+        "output": "đó sẽ là món quà tôi muốn tặng các bạn nếu tôi thành công với sứ mệnh của tôi"
+    },
+    {
+        "input": "chết sắp năm người với muốn tiếc đó của hối vị quý là hôm sẻ chia nhất gì nay tôi điều những và",
+        "output": "và đó là những gì tôi muốn chia sẻ với quý vị hôm nay   năm điều hối tiếc nhất của người sắp chết"
+    },
+    {
+        "input": "hôm điều là muốn tiếc với của hối sẻ đó và những sắp nay quý tôi chết chia gì người vị năm nhất",
+        "output": "và đó là những gì tôi muốn chia sẻ với quý vị hôm nay   năm điều hối tiếc nhất của người sắp chết"
+    },
+    {
+        "input": "muốn năm chết tôi chia sắp đó nay và sẻ nhất những là hối của vị điều với tiếc quý người gì hôm",
+        "output": "và đó là những gì tôi muốn chia sẻ với quý vị hôm nay   năm điều hối tiếc nhất của người sắp chết"
+    },
+    {
+        "input": "tinh hành nên điều lớn áp cực ta và lên tạo một chúng này những lực",
+        "output": "và những điều này tạo nên một áp lực cực lớn lên hành tinh chúng ta"
+    },
+    {
+        "input": "điều tinh tạo lực chúng ta hành áp và một cực này nên lớn lên những",
+        "output": "và những điều này tạo nên một áp lực cực lớn lên hành tinh chúng ta"
+    },
+    {
+        "input": "nên và lên này cực tinh áp ta lực một những lớn hành chúng tạo điều",
+        "output": "và những điều này tạo nên một áp lực cực lớn lên hành tinh chúng ta"
+    },
+    {
+        "input": "nên quạt để một dùng một mới khung trường hút hiệu bạn hữu loại hơn trong tạo thiết kế này nhiều có hợp",
+        "output": "trong trường hợp này bạn có một thiết kế khung dùng để tạo nên một loại quạt hút mới hữu hiệu hơn nhiều"
+    },
+    {
+        "input": "quạt có hợp để tạo hữu này thiết trường kế một một nên loại hơn bạn dùng nhiều khung hút trong hiệu mới",
+        "output": "trong trường hợp này bạn có một thiết kế khung dùng để tạo nên một loại quạt hút mới hữu hiệu hơn nhiều"
+    },
+    {
+        "input": "khung một bạn để dùng một có hợp trường tạo trong hữu hiệu thiết mới nhiều quạt nên kế hút hơn loại này",
+        "output": "trong trường hợp này bạn có một thiết kế khung dùng để tạo nên một loại quạt hút mới hữu hiệu hơn nhiều"
+    },
+    {
+        "input": "tới này những những và thứ đó đã thế dẫn thứ như",
+        "output": "và những thứ đó đã dẫn tới những thứ như thế này"
+    },
+    {
+        "input": "những thứ đó và tới thế như đã dẫn này thứ những",
+        "output": "và những thứ đó đã dẫn tới những thứ như thế này"
+    },
+    {
+        "input": "tới dẫn thứ đó này và thế như thứ những đã những",
+        "output": "và những thứ đó đã dẫn tới những thứ như thế này"
+    },
+    {
+        "input": "để tìm thành dựng các và nhiều nhau kiếm xây phố khác cách",
+        "output": "và tìm kiếm nhiều cách khác nhau để xây dựng các thành phố"
+    },
+    {
+        "input": "các nhiều kiếm phố dựng nhau thành tìm xây để và khác cách",
+        "output": "và tìm kiếm nhiều cách khác nhau để xây dựng các thành phố"
+    },
+    {
+        "input": "phố xây các khác nhau thành để dựng cách kiếm tìm nhiều và",
+        "output": "và tìm kiếm nhiều cách khác nhau để xây dựng các thành phố"
+    },
+    {
+        "input": "phố cách tôi thành như sự chúng và trở thành một của tân thế",
+        "output": "và như thế chúng tôi trở thành một thành phố của sự cách tân"
+    },
+    {
+        "input": "như tôi tân chúng trở thế cách một thành và sự thành phố của",
+        "output": "và như thế chúng tôi trở thành một thành phố của sự cách tân"
+    },
+    {
+        "input": "của thế chúng như tân cách và trở sự thành một thành tôi phố",
+        "output": "và như thế chúng tôi trở thành một thành phố của sự cách tân"
+    },
+    {
+        "input": "tôi không chúng nhưng cao đó trong chúng tôi danh chúng sách ai nào khi hạng có đã gần đã tôi là",
+        "output": "chúng tôi đã không khi nào gần hạng cao nhưng chúng tôi có trong danh sách chúng tôi đã là ai đó"
+    },
+    {
+        "input": "đã chúng không nào cao chúng khi hạng là tôi tôi chúng danh tôi ai đã đó trong có sách nhưng gần",
+        "output": "chúng tôi đã không khi nào gần hạng cao nhưng chúng tôi có trong danh sách chúng tôi đã là ai đó"
+    },
+    {
+        "input": "hạng chúng là danh tôi không khi nào đã nhưng tôi đó tôi trong chúng gần đã chúng cao ai sách có",
+        "output": "chúng tôi đã không khi nào gần hạng cao nhưng chúng tôi có trong danh sách chúng tôi đã là ai đó"
+    },
+    {
+        "input": "nước xếp những và nhất phố phì thành sau trong của bảng với đó hạng đến béo",
+        "output": "và sau đó đến với bảng xếp hạng của những thành phố béo phì nhất trong nước"
+    },
+    {
+        "input": "béo và hạng nước trong bảng phì với thành xếp sau những đó phố của nhất đến",
+        "output": "và sau đó đến với bảng xếp hạng của những thành phố béo phì nhất trong nước"
+    },
+    {
+        "input": "đến béo những phì bảng hạng nước của nhất thành trong đó xếp và sau phố với",
+        "output": "và sau đó đến với bảng xếp hạng của những thành phố béo phì nhất trong nước"
+    },
+    {
+        "input": "tôi trong đã đó danh sách chúng nằm và",
+        "output": "và chúng tôi đã nằm trong danh sách đó"
+    },
+    {
+        "input": "trong nằm và đó danh đã sách tôi chúng",
+        "output": "và chúng tôi đã nằm trong danh sách đó"
+    },
+    {
+        "input": "sách nằm đã tôi trong đó và chúng danh",
+        "output": "và chúng tôi đã nằm trong danh sách đó"
+    },
+    {
+        "input": "không đấy bạn những tiêu khi thành tới liên thấy cảm xấu phố quan biết biểu là mà đó bạn hổ",
+        "output": "bạn biết đấy đó là những thành phố tiêu biểu mà bạn không cảm thấy xấu hổ khi liên quan tới"
+    },
+    {
+        "input": "mà khi đấy bạn thành không những liên thấy là hổ quan biết cảm đó tiêu tới phố bạn xấu biểu",
+        "output": "bạn biết đấy đó là những thành phố tiêu biểu mà bạn không cảm thấy xấu hổ khi liên quan tới"
+    },
+    {
+        "input": "đấy thành mà bạn thấy hổ liên xấu tiêu phố tới cảm là không bạn biết những quan khi biểu đó",
+        "output": "bạn biết đấy đó là những thành phố tiêu biểu mà bạn không cảm thấy xấu hổ khi liên quan tới"
+    },
+    {
+        "input": "nghĩ nầy trang tôi ngu thật xuẩn mạng",
+        "output": "tôi nghĩ trang mạng nầy thật ngu xuẩn"
+    },
+    {
+        "input": "thật nghĩ tôi trang ngu xuẩn nầy mạng",
+        "output": "tôi nghĩ trang mạng nầy thật ngu xuẩn"
+    },
+    {
+        "input": "tôi nầy nghĩ trang thật xuẩn ngu mạng",
+        "output": "tôi nghĩ trang mạng nầy thật ngu xuẩn"
+    },
+    {
+        "input": "thực lần hiện một tiếp lại theo và nữa tôi",
+        "output": "và tiếp theo tôi thực hiện lại một lần nữa"
+    },
+    {
+        "input": "tôi và tiếp lại một theo lần hiện thực nữa",
+        "output": "và tiếp theo tôi thực hiện lại một lần nữa"
+    },
+    {
+        "input": "thực và một tôi theo lại tiếp nữa lần hiện",
+        "output": "và tiếp theo tôi thực hiện lại một lần nữa"
+    },
+    {
+        "input": "chuyện tôi thường bình qua trãi đó khi xem là tôi nhưng khá",
+        "output": "nhưng tôi xem đó là chuyện khá bình thường khi tôi trãi qua"
+    },
+    {
+        "input": "nhưng chuyện bình thường là trãi khá tôi xem khi tôi đó qua",
+        "output": "nhưng tôi xem đó là chuyện khá bình thường khi tôi trãi qua"
+    },
+    {
+        "input": "tôi nhưng thường khá là xem đó trãi bình qua tôi khi chuyện",
+        "output": "nhưng tôi xem đó là chuyện khá bình thường khi tôi trãi qua"
+    },
+    {
+        "input": "điều trình phần tôi thiện cần quá đó sự cố không gắng của thật cải phải mà một là",
+        "output": "điều đó thật sự không phải là một phần của quá trình mà tôi cần cố gắng cải thiện"
+    },
+    {
+        "input": "không cần mà gắng thật thiện của cải một sự là phải quá điều phần cố trình tôi đó",
+        "output": "điều đó thật sự không phải là một phần của quá trình mà tôi cần cố gắng cải thiện"
+    },
+    {
+        "input": "là cần của cố phải mà điều gắng cải thật một không phần quá đó thiện trình tôi sự",
+        "output": "điều đó thật sự không phải là một phần của quá trình mà tôi cần cố gắng cải thiện"
+    },
+    {
+        "input": "kháng gần bạn lại nơi người nhưng một bạn con là phải tiếng cười như ở hơi cự mọi nếu xe",
+        "output": "tiếng cười nhưng nếu bạn là một con người bạn phải kháng cự lại xe hơi gần như ở mọi nơi"
+    },
+    {
+        "input": "hơi con cười nơi người nhưng một kháng gần bạn phải mọi cự ở lại bạn nếu xe là như tiếng",
+        "output": "tiếng cười nhưng nếu bạn là một con người bạn phải kháng cự lại xe hơi gần như ở mọi nơi"
+    },
+    {
+        "input": "là cười nhưng nếu phải con người mọi xe nơi lại một kháng ở như tiếng bạn gần cự bạn hơi",
+        "output": "tiếng cười nhưng nếu bạn là một con người bạn phải kháng cự lại xe hơi gần như ở mọi nơi"
+    },
+    {
+        "input": "cư thế dân xa rất sống và vì",
+        "output": "và vì thế dân cư sống rất xa"
+    },
+    {
+        "input": "dân và sống rất thế vì xa cư",
+        "output": "và vì thế dân cư sống rất xa"
+    },
+    {
+        "input": "và rất sống xa thế vì cư dân",
+        "output": "và vì thế dân cư sống rất xa"
+    },
+    {
+        "input": "thành là đó muốn vấn phố giải đây đề quyết",
+        "output": "đây là thành phố muốn giải quyết vấn đề đó "
+    },
+    {
+        "input": "muốn quyết đề giải vấn là đây thành phố đó",
+        "output": "đây là thành phố muốn giải quyết vấn đề đó "
+    },
+    {
+        "input": "thành đây đó đề muốn phố là giải quyết vấn",
+        "output": "đây là thành phố muốn giải quyết vấn đề đó "
+    },
+    {
+        "input": "đã ra thờ nhà diễn nó trong",
+        "output": "nó đã diễn ra trong nhà thờ"
+    },
+    {
+        "input": "đã nó thờ ra nhà trong diễn",
+        "output": "nó đã diễn ra trong nhà thờ"
+    },
+    {
+        "input": "ra thờ đã trong nó nhà diễn",
+        "output": "nó đã diễn ra trong nhà thờ"
+    },
+    {
+        "input": "những nhà cháu tay đang cười về vỗ đứa",
+        "output": "cười vỗ tay những đứa cháu đang về nhà"
+    },
+    {
+        "input": "nhà đứa về cười tay những đang vỗ cháu",
+        "output": "cười vỗ tay những đứa cháu đang về nhà"
+    },
+    {
+        "input": "cháu nhà đang đứa những cười tay về vỗ",
+        "output": "cười vỗ tay những đứa cháu đang về nhà"
+    },
+    {
+        "input": "có tôi cảm nhiều ở mặt rất cho đã đây vì ơn",
+        "output": "cảm ơn rất nhiều vì đã cho tôi có mặt ở đây"
+    },
+    {
+        "input": "mặt ơn ở cảm đây rất cho có đã nhiều tôi vì",
+        "output": "cảm ơn rất nhiều vì đã cho tôi có mặt ở đây"
+    },
+    {
+        "input": "mặt ơn cho ở vì nhiều rất đã đây cảm tôi có",
+        "output": "cảm ơn rất nhiều vì đã cho tôi có mặt ở đây"
+    },
+    {
+        "input": "thể đổi nhanh chả thể quay hơn tình tôi nhưng đường chạy cho trạng có vòng làm",
+        "output": "chả thể đổi tình trạng đường nhưng tôi có thể làm cho vòng quay chạy nhanh hơn"
+    },
+    {
+        "input": "vòng cho quay có trạng hơn nhanh thể đường chả nhưng tình tôi thể đổi làm chạy",
+        "output": "chả thể đổi tình trạng đường nhưng tôi có thể làm cho vòng quay chạy nhanh hơn"
+    },
+    {
+        "input": "nhưng chả đổi tôi thể tình quay có chạy nhanh làm thể đường trạng cho vòng hơn",
+        "output": "chả thể đổi tình trạng đường nhưng tôi có thể làm cho vòng quay chạy nhanh hơn"
+    },
+    {
+        "input": "lan video một vời sức và có toả tuyệt",
+        "output": "một video tuyệt vời và có sức lan toả"
+    },
+    {
+        "input": "lan sức toả video một có vời và tuyệt",
+        "output": "một video tuyệt vời và có sức lan toả"
+    },
+    {
+        "input": "sức và một toả có video tuyệt vời lan",
+        "output": "một video tuyệt vời và có sức lan toả"
+    },
+    {
+        "input": "việc nào về bắt như họ muốn tôi chúng và đầu thế là nói nó",
+        "output": "và chúng tôi bắt đầu nói về việc họ muốn nó là như thế nào"
+    },
+    {
+        "input": "thế bắt nói họ và nào việc đầu về là nó chúng tôi như muốn",
+        "output": "và chúng tôi bắt đầu nói về việc họ muốn nó là như thế nào"
+    },
+    {
+        "input": "về nó nào họ thế là muốn như đầu chúng việc tôi bắt và nói",
+        "output": "và chúng tôi bắt đầu nói về việc họ muốn nó là như thế nào"
+    },
+    {
+        "input": "những về bắt ta thế chính thực vì chúng hứng sự đầu hiện với ngoài gì ra thể ta thú xác nói chúng nó chuyện ý tưởng này bên",
+        "output": "vì thế chúng ta thực sự hứng thú với ý tưởng này chúng ta bắt đầu nói chuyện về chính xác những gì nó thể hiện ra bên ngoài"
+    },
+    {
+        "input": "chúng đầu hiện hứng xác ra vì chúng những nó ta gì thực chính ý chuyện thế bắt tưởng thể thú nói với ta bên ngoài sự về này",
+        "output": "vì thế chúng ta thực sự hứng thú với ý tưởng này chúng ta bắt đầu nói chuyện về chính xác những gì nó thể hiện ra bên ngoài"
+    },
+    {
+        "input": "những hứng nói ý thế thú bắt đầu này chính tưởng gì với nó chúng hiện ngoài ta thực sự ra vì chuyện bên thể ta chúng xác về",
+        "output": "vì thế chúng ta thực sự hứng thú với ý tưởng này chúng ta bắt đầu nói chuyện về chính xác những gì nó thể hiện ra bên ngoài"
+    },
+    {
+        "input": "gì là cho đảm sẽ tạo bảo ca chúng tôi một nhạc tôi và muốn nên đã video làm những chúng",
+        "output": "và chúng tôi muốn đảm bảo cho những gì chúng tôi đã làm là sẽ tạo nên một video ca nhạc"
+    },
+    {
+        "input": "tôi sẽ chúng ca tạo làm nhạc là cho và đảm tôi một bảo những gì đã video muốn nên chúng",
+        "output": "và chúng tôi muốn đảm bảo cho những gì chúng tôi đã làm là sẽ tạo nên một video ca nhạc"
+    },
+    {
+        "input": "nên tôi gì nhạc một và tôi là muốn ca bảo chúng cho những đã tạo sẽ video làm chúng đảm",
+        "output": "và chúng tôi muốn đảm bảo cho những gì chúng tôi đã làm là sẽ tạo nên một video ca nhạc"
+    },
+    {
+        "input": "xúc vời máy có thể quá lên cỗ chạy nó tuyệt trở của để trong bài trình cho hơn nên để dậy hát cảm",
+        "output": "để bài hát có thể dậy lên xúc cảm để cho cỗ máy trở nên tuyệt vời hơn trong quá trình chạy của nó"
+    },
+    {
+        "input": "nó chạy để bài trong của dậy thể nên cảm có lên cỗ quá máy trở cho hơn vời xúc trình để tuyệt hát",
+        "output": "để bài hát có thể dậy lên xúc cảm để cho cỗ máy trở nên tuyệt vời hơn trong quá trình chạy của nó"
+    },
+    {
+        "input": "nên để cho nó để trong thể bài máy trình trở tuyệt lên chạy xúc dậy có hát hơn cỗ cảm quá vời của",
+        "output": "để bài hát có thể dậy lên xúc cảm để cho cỗ máy trở nên tuyệt vời hơn trong quá trình chạy của nó"
+    },
+    {
+        "input": "bên đóng xưởng gồm ngoài bao tàu ở một",
+        "output": "bao gồm một xưởng đóng tàu ở bên ngoài"
+    },
+    {
+        "input": "gồm ở đóng ngoài bên xưởng tàu một bao",
+        "output": "bao gồm một xưởng đóng tàu ở bên ngoài"
+    },
+    {
+        "input": "ngoài đóng ở bao bên xưởng gồm một tàu",
+        "output": "bao gồm một xưởng đóng tàu ở bên ngoài"
+    },
+    {
+        "input": "chúng lớn phim tất và bao mà ở hố gồm đó thực ra đã gian khoảng cả đó cả máy được tôi quay dụng quay một đã đặt chúng sàn trên nơi tận tôi không người",
+        "output": "chúng tôi đã tận dụng được tất cả khoảng không gian đó bao gồm cả một hố lớn trên sàn nơi mà chúng tôi thực ra đã đặt máy quay và người quay phim ở đó"
+    },
+    {
+        "input": "thực đã mà cả tôi bao gian khoảng dụng ra người quay ở tận đặt được nơi lớn cả chúng một quay đã tất chúng đó sàn đó trên máy và không phim tôi gồm hố",
+        "output": "chúng tôi đã tận dụng được tất cả khoảng không gian đó bao gồm cả một hố lớn trên sàn nơi mà chúng tôi thực ra đã đặt máy quay và người quay phim ở đó"
+    },
+    {
+        "input": "cả quay đặt tôi đó phim hố thực mà đó trên dụng tất nơi khoảng tôi gian tận chúng chúng quay không máy sàn được một người ở gồm và đã đã lớn bao ra cả",
+        "output": "chúng tôi đã tận dụng được tất cả khoảng không gian đó bao gồm cả một hố lớn trên sàn nơi mà chúng tôi thực ra đã đặt máy quay và người quay phim ở đó"
+    },
+    {
+        "input": "suốt quá máy đều sẽ chạy chiếc trình và trong",
+        "output": "và chiếc máy sẽ chạy đều trong suốt quá trình"
+    },
+    {
+        "input": "đều sẽ chiếc quá trong trình máy và suốt chạy",
+        "output": "và chiếc máy sẽ chạy đều trong suốt quá trình"
+    },
+    {
+        "input": "và trình suốt trong chiếc sẽ đều quá chạy máy",
+        "output": "và chiếc máy sẽ chạy đều trong suốt quá trình"
+    },
+    {
+        "input": "vào phải phải trung bắt sẽ nó tập nó và đầu với bạn",
+        "output": "và bạn sẽ phải bắt đầu với nó phải tập trung vào nó"
+    },
+    {
+        "input": "với vào nó trung phải phải nó tập và sẽ đầu bắt bạn",
+        "output": "và bạn sẽ phải bắt đầu với nó phải tập trung vào nó"
+    },
+    {
+        "input": "bạn vào nó đầu bắt và phải phải sẽ nó với trung tập",
+        "output": "và bạn sẽ phải bắt đầu với nó phải tập trung vào nó"
+    },
+    {
+        "input": "kết thường hay thì quả phải thứ bởi mĩ các đưa thẩm bất là hay thứ gian chúng tôi gì ra cứ như thời",
+        "output": "thường thì chúng tôi phải đưa các thứ ra như là kết quả bởi thời gian hay thẩm mĩ hay bất cứ thứ gì"
+    },
+    {
+        "input": "thứ kết hay bất thẩm là chúng thường hay bởi gì phải các thì như thời quả gian tôi ra cứ đưa thứ mĩ",
+        "output": "thường thì chúng tôi phải đưa các thứ ra như là kết quả bởi thời gian hay thẩm mĩ hay bất cứ thứ gì"
+    },
+    {
+        "input": "gian là phải đưa hay thời mĩ kết tôi ra chúng thì thường thứ hay các gì thứ cứ bởi như quả thẩm bất",
+        "output": "thường thì chúng tôi phải đưa các thứ ra như là kết quả bởi thời gian hay thẩm mĩ hay bất cứ thứ gì"
+    },
+    {
+        "input": "xin lỗi nhé lại",
+        "output": "xin lỗi lại nhé"
+    },
+    {
+        "input": "lỗi lại xin nhé",
+        "output": "xin lỗi lại nhé"
+    },
+    {
+        "input": "lại nhé xin lỗi",
+        "output": "xin lỗi lại nhé"
+    },
+    {
+        "input": "có nghĩ cách trị tôi này tuân theo khó tôi điều khăn thể",
+        "output": "tôi nghĩ tôi có thể tuân theo cách điều trị khó khăn này"
+    },
+    {
+        "input": "tôi điều cách có khó khăn thể tôi này tuân nghĩ trị theo",
+        "output": "tôi nghĩ tôi có thể tuân theo cách điều trị khó khăn này"
+    },
+    {
+        "input": "theo khăn tôi điều tuân này cách tôi khó thể có nghĩ trị",
+        "output": "tôi nghĩ tôi có thể tuân theo cách điều trị khó khăn này"
+    },
+    {
+        "input": "biển họ bắt bờ tìm dọc toàn mua để được khi thị trấn họ nhất giá cá chỗ cao có gọi",
+        "output": "khi họ bắt được cá họ gọi toàn thị trấn dọc bờ biển để tìm chỗ có giá mua cao nhất"
+    },
+    {
+        "input": "gọi dọc họ thị giá cao trấn tìm có bắt toàn họ được bờ biển để khi chỗ cá mua nhất",
+        "output": "khi họ bắt được cá họ gọi toàn thị trấn dọc bờ biển để tìm chỗ có giá mua cao nhất"
+    },
+    {
+        "input": "có nhất bờ giá họ tìm để dọc họ trấn mua thị cá chỗ khi gọi biển được cao toàn bắt",
+        "output": "khi họ bắt được cá họ gọi toàn thị trấn dọc bờ biển để tìm chỗ có giá mua cao nhất"
+    },
+    {
+        "input": "pháo tay",
+        "output": "pháo tay"
+    },
+    {
+        "input": "pháo tay",
+        "output": "pháo tay"
+    },
+    {
+        "input": "pháo tay",
+        "output": "pháo tay"
+    },
+    {
+        "input": "khu giờ vực sáng 9 giờ",
+        "output": "9 giờ sáng giờ khu vực"
+    },
+    {
+        "input": "giờ giờ khu vực 9 sáng",
+        "output": "9 giờ sáng giờ khu vực"
+    },
+    {
+        "input": "vực giờ khu giờ 9 sáng",
+        "output": "9 giờ sáng giờ khu vực"
+    },
+    {
+        "input": "đang vui rất bây tôi giờ",
+        "output": "bây giờ tôi đang rất vui"
+    },
+    {
+        "input": "vui rất tôi giờ bây đang",
+        "output": "bây giờ tôi đang rất vui"
+    },
+    {
+        "input": "giờ tôi rất bây đang vui",
+        "output": "bây giờ tôi đang rất vui"
+    },
+    {
+        "input": "cuối bằng khỏi lần tôi tách của mình này trần lật ra gỗ thuyền lưng miếng",
+        "output": "lần lật cuối tôi tách miếng gỗ này ra khỏi trần thuyền bằng lưng của mình"
+    },
+    {
+        "input": "miếng mình khỏi này lần lưng bằng ra trần gỗ tách lật của thuyền tôi cuối",
+        "output": "lần lật cuối tôi tách miếng gỗ này ra khỏi trần thuyền bằng lưng của mình"
+    },
+    {
+        "input": "mình thuyền khỏi bằng gỗ miếng lật tôi lần ra lưng này của trần tách cuối",
+        "output": "lần lật cuối tôi tách miếng gỗ này ra khỏi trần thuyền bằng lưng của mình"
+    },
+    {
+        "input": "một thuyền cuối lần cùng lật vòng",
+        "output": "lần cuối cùng thuyền lật một vòng"
+    },
+    {
+        "input": "lần thuyền vòng một cùng cuối lật",
+        "output": "lần cuối cùng thuyền lật một vòng"
+    },
+    {
+        "input": "cùng vòng lần thuyền một cuối lật",
+        "output": "lần cuối cùng thuyền lật một vòng"
+    },
+    {
+        "input": "trái gẫy tôi đã tay của nghĩ tôi",
+        "output": "tôi nghĩ tay trái của tôi đã gẫy"
+    },
+    {
+        "input": "của đã gẫy tôi nghĩ trái tay tôi",
+        "output": "tôi nghĩ tay trái của tôi đã gẫy"
+    },
+    {
+        "input": "tay đã trái của tôi nghĩ gẫy tôi",
+        "output": "tôi nghĩ tay trái của tôi đã gẫy"
+    },
+    {
+        "input": "chắn vì nguyện cầu hay chuyện tôi chắc không này luôn vượt có tôi tôi không qua",
+        "output": "tôi luôn cầu nguyện vì tôi không chắc chắn tôi có vượt qua chuyện này hay không"
+    },
+    {
+        "input": "vì chắc nguyện chuyện qua tôi cầu tôi vượt không có hay luôn không này tôi chắn",
+        "output": "tôi luôn cầu nguyện vì tôi không chắc chắn tôi có vượt qua chuyện này hay không"
+    },
+    {
+        "input": "luôn vượt này chuyện chắn tôi hay không nguyện chắc tôi qua tôi vì cầu có không",
+        "output": "tôi luôn cầu nguyện vì tôi không chắc chắn tôi có vượt qua chuyện này hay không"
+    },
+    {
+        "input": "thức đen khi tôi và dậy tại trời phủ đây mây bầu",
+        "output": "và khi tôi thức dậy tại đây mây đen phủ bầu trời"
+    },
+    {
+        "input": "mây phủ khi tôi thức trời bầu đen đây dậy và tại",
+        "output": "và khi tôi thức dậy tại đây mây đen phủ bầu trời"
+    },
+    {
+        "input": "và đen đây phủ dậy tôi tại bầu khi thức mây trời",
+        "output": "và khi tôi thức dậy tại đây mây đen phủ bầu trời"
+    },
+    {
+        "input": "ra trẻ ly tâm đứa văng bởi sẽ lực",
+        "output": "đứa trẻ sẽ văng ra bởi lực ly tâm"
+    },
+    {
+        "input": "ra bởi tâm lực ly sẽ đứa trẻ văng",
+        "output": "đứa trẻ sẽ văng ra bởi lực ly tâm"
+    },
+    {
+        "input": "bởi trẻ đứa ly văng ra lực sẽ tâm",
+        "output": "đứa trẻ sẽ văng ra bởi lực ly tâm"
+    },
+    {
+        "input": "con có chim có và thể liên kiến gõ quan những",
+        "output": "và những con chim gõ kiến có thể có liên quan"
+    },
+    {
+        "input": "liên chim quan có kiến gõ con những và thể có",
+        "output": "và những con chim gõ kiến có thể có liên quan"
+    },
+    {
+        "input": "gõ có quan có thể liên kiến và chim con những",
+        "output": "và những con chim gõ kiến có thể có liên quan"
+    },
+    {
+        "input": "kiện hai một điều trong",
+        "output": "một trong hai điều kiện"
+    },
+    {
+        "input": "một kiện điều trong hai",
+        "output": "một trong hai điều kiện"
+    },
+    {
+        "input": "một hai kiện điều trong",
+        "output": "một trong hai điều kiện"
+    },
+    {
+        "input": "bên bị trượt sẽ bạn trong không tất ngã ngoài nếu phải chứ bên không đeo",
+        "output": "nếu đeo tất bên ngoài chứ không phải bên trong bạn sẽ không bị trượt ngã"
+    },
+    {
+        "input": "ngã trong chứ ngoài không không bị đeo bạn bên phải sẽ tất trượt bên nếu",
+        "output": "nếu đeo tất bên ngoài chứ không phải bên trong bạn sẽ không bị trượt ngã"
+    },
+    {
+        "input": "phải không ngã tất trong bên chứ nếu bạn bên không ngoài đeo bị sẽ trượt",
+        "output": "nếu đeo tất bên ngoài chứ không phải bên trong bạn sẽ không bị trượt ngã"
+    },
+    {
+        "input": "đơn dựa chí một tiêu giản vào",
+        "output": "dựa vào một tiêu chí đơn giản"
+    },
+    {
+        "input": "giản dựa một đơn tiêu vào chí",
+        "output": "dựa vào một tiêu chí đơn giản"
+    },
+    {
+        "input": "chí dựa đơn tiêu một vào giản",
+        "output": "dựa vào một tiêu chí đơn giản"
+    },
+    {
+        "input": "giải đạt người bao giờ không những hầu tự cử như đề",
+        "output": "những người tự đề cử hầu như không bao giờ đạt giải"
+    },
+    {
+        "input": "những đề người bao hầu giải tự như đạt cử không giờ",
+        "output": "những người tự đề cử hầu như không bao giờ đạt giải"
+    },
+    {
+        "input": "đạt như tự cử không giờ những đề người bao giải hầu",
+        "output": "những người tự đề cử hầu như không bao giờ đạt giải"
+    },
+    {
+        "input": "thủ vật hàng công liệu tiền từ những nhưng rẻ đều là",
+        "output": "nhưng đều là hàng thủ công từ những vật liệu rẻ tiền"
+    },
+    {
+        "input": "từ là liệu nhưng đều tiền hàng rẻ công vật thủ những",
+        "output": "nhưng đều là hàng thủ công từ những vật liệu rẻ tiền"
+    },
+    {
+        "input": "thủ nhưng tiền đều vật công hàng từ là liệu những rẻ",
+        "output": "nhưng đều là hàng thủ công từ những vật liệu rẻ tiền"
+    },
+    {
+        "input": "biết họ người số trong có thể bạn nhiều",
+        "output": "nhiều người trong số họ bạn có thể biết"
+    },
+    {
+        "input": "biết thể có số người trong họ nhiều bạn",
+        "output": "nhiều người trong số họ bạn có thể biết"
+    },
+    {
+        "input": "thể có bạn số người biết nhiều trong họ",
+        "output": "nhiều người trong số họ bạn có thể biết"
+    },
+    {
+        "input": "thể là có nghiệp của bạn đồng",
+        "output": "có thể là đồng nghiệp của bạn"
+    },
+    {
+        "input": "có thể nghiệp đồng bạn của là",
+        "output": "có thể là đồng nghiệp của bạn"
+    },
+    {
+        "input": "bạn của thể là nghiệp đồng có",
+        "output": "có thể là đồng nghiệp của bạn"
+    },
+    {
+        "input": "vào bạn hẹp nơi chắc nhìn dài đó và tăm là đã một tôi tối biết",
+        "output": "tôi chắc bạn đã biết đó là nhìn vào một nơi dài hẹp và tối tăm"
+    },
+    {
+        "input": "đó và nơi một tối bạn vào là hẹp chắc tăm biết tôi đã nhìn dài",
+        "output": "tôi chắc bạn đã biết đó là nhìn vào một nơi dài hẹp và tối tăm"
+    },
+    {
+        "input": "dài chắc biết tối tăm là hẹp đã bạn nhìn và tôi một vào nơi đó",
+        "output": "tôi chắc bạn đã biết đó là nhìn vào một nơi dài hẹp và tối tăm"
+    },
+    {
+        "input": "mê khí vào thêm oxi tan vậy là",
+        "output": "vậy là thêm oxi vào khí mê tan"
+    },
+    {
+        "input": "oxi là tan mê vào khí thêm vậy",
+        "output": "vậy là thêm oxi vào khí mê tan"
+    },
+    {
+        "input": "vậy mê thêm oxi vào tan khí là",
+        "output": "vậy là thêm oxi vào khí mê tan"
+    },
+    {
+        "input": "và lần bắt lên số và chủ kết căng này mà may người cuộc nữa nối các quyền giữa gay quyền giữa nổi cách đầu kiến thật lần vận mắn và 1 thẳng chứng 1 dân tôi động sự",
+        "output": "và sự căng thẳng giữa quyền gay và quyền dân chủ bắt đầu nổi lên 1 lần nữa và tôi thật may mắn chứng kiến cách mà 1 số người kết nối giữa các cuộc vận động lần này"
+    },
+    {
+        "input": "kết căng gay kiến lần nối vận bắt giữa may cuộc người chứng cách 1 1 quyền thật sự lên và mắn đầu lần nữa giữa nổi các tôi số và động dân này thẳng quyền chủ mà và",
+        "output": "và sự căng thẳng giữa quyền gay và quyền dân chủ bắt đầu nổi lên 1 lần nữa và tôi thật may mắn chứng kiến cách mà 1 số người kết nối giữa các cuộc vận động lần này"
+    },
+    {
+        "input": "giữa quyền dân gay bắt quyền nổi thật chứng 1 nữa số và người kiến kết mà và lên cách và thẳng các lần động cuộc tôi may đầu 1 giữa mắn sự căng vận lần này chủ nối",
+        "output": "và sự căng thẳng giữa quyền gay và quyền dân chủ bắt đầu nổi lên 1 lần nữa và tôi thật may mắn chứng kiến cách mà 1 số người kết nối giữa các cuộc vận động lần này"
+    },
+    {
+        "input": "các đều muốn anh",
+        "output": "các anh đều muốn"
+    },
+    {
+        "input": "anh các đều muốn",
+        "output": "các anh đều muốn"
+    },
+    {
+        "input": "các anh đều muốn",
+        "output": "các anh đều muốn"
+    },
+    {
+        "input": "không hạn với người da đen giới cô",
+        "output": "cô không giới hạn với người da đen"
+    },
+    {
+        "input": "cô đen hạn da người không giới với",
+        "output": "cô không giới hạn với người da đen"
+    },
+    {
+        "input": "cô giới người với đen hạn không da",
+        "output": "cô không giới hạn với người da đen"
+    },
+    {
+        "input": "đổi không ta thay nếu là thi và lại đất tiềm thù năng phải vị nhưng nhưng của tinh nó tử là chúng kể nó cứu",
+        "output": "nhưng nếu chúng ta thay đổi lại nó và tử thi không phải là kể thù của đất nhưng nó là vị cứu tinh tiềm năng"
+    },
+    {
+        "input": "và thay phải nó thi lại là kể tinh nhưng của là vị tử thù nó cứu ta năng đất đổi nếu nhưng tiềm không chúng",
+        "output": "nhưng nếu chúng ta thay đổi lại nó và tử thi không phải là kể thù của đất nhưng nó là vị cứu tinh tiềm năng"
+    },
+    {
+        "input": "lại thay nhưng tử là vị nó của đổi năng đất cứu thù phải chúng nó là không nếu nhưng ta tinh kể tiềm và thi",
+        "output": "nhưng nếu chúng ta thay đổi lại nó và tử thi không phải là kể thù của đất nhưng nó là vị cứu tinh tiềm năng"
+    },
+    {
+        "input": "và vào địa thực lại cơ để đến các tạo hội bản vùng vật 1 vật đưa động loại chúng",
+        "output": "chúng tạo cơ hội để đưa vào lại các loại thực vật và động vật bản địa đến 1 vùng"
+    },
+    {
+        "input": "hội vùng bản lại các và địa chúng đến cơ thực tạo loại vật 1 đưa để vào động vật",
+        "output": "chúng tạo cơ hội để đưa vào lại các loại thực vật và động vật bản địa đến 1 vùng"
+    },
+    {
+        "input": "loại bản đưa và thực tạo chúng vật động cơ để vào các 1 địa lại hội vùng vật đến",
+        "output": "chúng tạo cơ hội để đưa vào lại các loại thực vật và động vật bản địa đến 1 vùng"
+    },
+    {
+        "input": "tôi bạn gì nói biết đang mà",
+        "output": "bạn biết tôi đang nói gì mà "
+    },
+    {
+        "input": "tôi gì đang bạn mà biết nói",
+        "output": "bạn biết tôi đang nói gì mà "
+    },
+    {
+        "input": "biết mà tôi bạn nói gì đang",
+        "output": "bạn biết tôi đang nói gì mà "
+    },
+    {
+        "input": "cần đổi thay phải điều này",
+        "output": "điều này cần phải thay đổi"
+    },
+    {
+        "input": "đổi thay điều phải cần này",
+        "output": "điều này cần phải thay đổi"
+    },
+    {
+        "input": "thay điều đổi phải cần này",
+        "output": "điều này cần phải thay đổi"
+    },
+    {
+        "input": "hạn thẳng phong và hội căng này tương tự chủng trào chúng giới đoạn giai và giúp tôi tốc những về xã trong qua thứ vượt những",
+        "output": "trong giai đoạn căng thẳng về chủng tốc và xã hội phong trào này và những thứ tương tự giúp chúng tôi vượt qua những giới hạn"
+    },
+    {
+        "input": "căng giới hạn trào chủng thẳng phong tương giai này tự hội những vượt qua và thứ giúp tốc những xã và tôi đoạn trong chúng về",
+        "output": "trong giai đoạn căng thẳng về chủng tốc và xã hội phong trào này và những thứ tương tự giúp chúng tôi vượt qua những giới hạn"
+    },
+    {
+        "input": "về tự phong hội này tôi và tương và trong giai giới những thẳng những qua xã trào chủng tốc vượt đoạn hạn chúng căng thứ giúp",
+        "output": "trong giai đoạn căng thẳng về chủng tốc và xã hội phong trào này và những thứ tương tự giúp chúng tôi vượt qua những giới hạn"
+    },
+    {
+        "input": "thậm cảm thấy làm vậy với phải bạn đập cô chí tay nếu ấy cần",
+        "output": "thậm chí đập tay với cô ấy nếu bạn cảm thấy cần phải làm vậy"
+    },
+    {
+        "input": "tay cần đập thậm nếu chí cô với làm ấy bạn thấy vậy cảm phải",
+        "output": "thậm chí đập tay với cô ấy nếu bạn cảm thấy cần phải làm vậy"
+    },
+    {
+        "input": "phải nếu ấy tay đập bạn cảm thấy cô làm cần chí thậm với vậy",
+        "output": "thậm chí đập tay với cô ấy nếu bạn cảm thấy cần phải làm vậy"
+    },
+    {
+        "input": "tình thân là giá và bản mà còn yêu trị",
+        "output": "mà còn là tình yêu và giá trị bản thân"
+    },
+    {
+        "input": "thân và bản yêu còn trị là giá tình mà",
+        "output": "mà còn là tình yêu và giá trị bản thân"
+    },
+    {
+        "input": "mà yêu giá còn thân trị và tình bản là",
+        "output": "mà còn là tình yêu và giá trị bản thân"
+    },
+    {
+        "input": "phải sự bao không kết mặt đối với mất giờ cố nối tôi",
+        "output": "tôi không bao giờ phải đối mặt với sự cố mất kết nối"
+    },
+    {
+        "input": "với nối phải giờ sự cố mặt đối bao mất kết tôi không",
+        "output": "tôi không bao giờ phải đối mặt với sự cố mất kết nối"
+    },
+    {
+        "input": "nối không tôi kết phải giờ sự bao mất cố đối mặt với",
+        "output": "tôi không bao giờ phải đối mặt với sự cố mất kết nối"
+    },
+    {
+        "input": "đã liên vì mà có được và kết sự mà bó bạn là bạn muốn gắn có",
+        "output": "mà là vì bạn đã có sự gắn bó và liên kết mà bạn muốn có được"
+    },
+    {
+        "input": "và liên có vì muốn bạn bạn kết gắn mà có sự đã mà được bó là",
+        "output": "mà là vì bạn đã có sự gắn bó và liên kết mà bạn muốn có được"
+    },
+    {
+        "input": "vì bạn bạn có và mà bó kết được liên có gắn muốn là đã sự mà",
+        "output": "mà là vì bạn đã có sự gắn bó và liên kết mà bạn muốn có được"
+    },
+    {
+        "input": "nhọn mũi nó có",
+        "output": "nó có mũi nhọn"
+    },
+    {
+        "input": "có nó nhọn mũi",
+        "output": "nó có mũi nhọn"
+    },
+    {
+        "input": "nhọn nó có mũi",
+        "output": "nó có mũi nhọn"
+    }
+]
