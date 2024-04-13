@@ -1,6 +1,6 @@
-./Data
-./Model
-./Reorderword/.vector_cache
-./Reorderword/PhoMT
-./Reorderword/word_ordering
+Data/
+Model/
+Reorderword/.vector_cache/
+Reorderword/PhoMT/
+Reorderword/word_ordering/
 *.txt
