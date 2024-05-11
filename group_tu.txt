@@ -4,7 +4,6 @@ Bố
 Cười
 Cảm ơn
 Khóc
-Cơm
 Mẹ
 Sách
 Xin chào
@@ -14,7 +13,8 @@ Xem
 Xin lỗi
 Đi học
 Đi
-Vẽ
 Chơi
 Tôi
 Bạn
+Mỗi ngày
+Làm việc
