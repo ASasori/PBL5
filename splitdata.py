@@ -42,6 +42,6 @@ def split_data(source_folder, dest_folder, train_ratio=0.9):
             for video in test_videos:
                 shutil.copy(os.path.join(label_dir, video), test_label_dir)
 
-source_folder = 'data'
-dest_folder = 'data_split'
+source_folder = 'Pending upload/NguyenAnh_data_video'
+dest_folder = 'Pending upload/NguyenAnh_data_video_split'
 split_data(source_folder, dest_folder)
