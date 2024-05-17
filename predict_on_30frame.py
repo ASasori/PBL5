@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 import copy
 import json
-from models.model_train_8.classes import  load_model
+from models.model_train_10.classes import  load_model
 model = load_model()
 
 mp_holistic = mp.solutions.holistic 
@@ -15,6 +15,8 @@ mp_drawing = mp.solutions.drawing_utils
 
 width = 640
 height = 480
+
+#function 
 def mediapipe_detection(image, model):
     # từ image, model dự đoán trả về kết quả (định dạng mặc định) 
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB) # COLOR CONVERSION BGR 2 RGB
@@ -144,12 +146,15 @@ print(actions)
 
 
 cap = cv2.VideoCapture(0)
+# cap.set(cv2.CAP_PROP_FRAME_WIDTH, width)
+# cap.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
+# cv2.namedWindow("FullScreen", cv2.WND_PROP_FULLSCREEN)
+# cv2.setWindowProperty("FullScreen", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+
 delay = 0
-frame_list = []
 with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5) as holistic:
     while cap.isOpened():
         ret, frame = cap.read()
-        frame_list.append(frame)
         image, results = mediapipe_detection(frame, holistic)
         keypoints = extract_keypoints_flatten(results,image)
         last = copy.deepcopy(results)
@@ -160,14 +165,14 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
             res = model.predict(np.expand_dims(sequence, axis=0))[0]
             label = actions[np.argmax(res)]
             frame_list = []
-            cv2.putText(image, f'Predicted: {label}', (120,200), 
+            cv2.putText(image, f'Predicted: {label}', (80,150), 
                                cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255, 0), 4, cv2.LINE_AA)
-            cv2.imshow('OpenCV Feed', image)
+            cv2.imshow("FullScreen", image)
             if cv2.waitKey(2000) & 0xFF == ord('q'):
                 break
             sequence = []
             continue
-        cv2.imshow('OpenCV Feed', image)
+        cv2.imshow("FullScreen", image)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     cap.release()
