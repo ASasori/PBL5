@@ -251,7 +251,7 @@ def TransformerBlock(dim=256, num_heads=4, expand=4, attn_dropout=0.2, drop_rate
         return x
     return apply
 
-MAX_LEN = 30 # number of frame
+MAX_LEN = 15 # number of frame
 CHANNELS = 258 # number of keypoint value
 NUM_CLASSES = 20
 PAD = -100
@@ -293,7 +293,7 @@ def get_model(max_len=MAX_LEN, dropout_step=0, dim=192):
     x = tf.keras.layers.Dense(NUM_CLASSES,name='classifier',activation="softmax")(x)
     return tf.keras.Model(inp, x)
 
-def load_model(path='1DCNN_Transformer_L-dim192_train9_1405_checkpoint.weights.h5'):
+def load_model(path='1DCNN_Transformer_15F-dim192_train1_1705_checkpoint.weights.h5'):
     model = get_model()
     module_dir = os.path.dirname(os.path.abspath(__file__))
     model_path = os.path.join(module_dir,path)
