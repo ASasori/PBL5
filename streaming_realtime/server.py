@@ -1,6 +1,6 @@
 """pub_sub_receive.py -- receive OpenCV stream using PUB SUB."""
 
-import zmq,cv2,sys,os,json,numpy as np,copy,csv
+import zmq,cv2,sys,os,json,numpy as np,copy,csv,imagezmq
 from time import sleep
 import mediapipe as mp
 from server_handler import VideoStreamSubscriber
@@ -131,7 +131,7 @@ def filecsv_to_numpy(filename,data):
 sequence = []
 sentence = []
 predictions = []
-threshold = 0.85
+threshold = 0.8
 num_frame = 30
 with open("label_list.json") as js:
     actions = list(json.load(js).values())
@@ -144,7 +144,7 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
     #main
     #initialize receiver video stream and message sender
     print("Listening to client...")
-    receiver = VideoStreamSubscriber("localhost",5555)
+    receiver = imagezmq.ImageHub()
     context = zmq.Context()
     socket = context.socket(zmq.PUSH)
     socket.bind("tcp://*:5556")#port 5556 giao tiếp message
@@ -152,7 +152,7 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
     last = None
     while True:
         count+=1
-        msg, frame = receiver.receive()
+        msg, frame = receiver.recv_image()
         image, results = mediapipe_detection(frame, holistic)
         keypoints = extract_keypoints_flatten(results,last)
         last = copy.deepcopy(results)

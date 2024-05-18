@@ -6,8 +6,8 @@ import socket
 import time
 import zmq
 
-server_ip = "127.0.0.1"
-sender = imagezmq.ImageSender(connect_to=f"tcp://{server_ip}:5555",REQ_REP=False)
+server_ip = "192.168.1.186"
+sender = imagezmq.ImageSender(connect_to=f"tcp://{server_ip}:5555")
 rpiName = socket.gethostname()
 cap = cv2.VideoCapture(0)
 stop_flag = False
@@ -24,6 +24,7 @@ class Receiver(Thread):
 		context = zmq.Context()
 		socket = context.socket(zmq.PULL)
 		socket.connect(f"tcp://{self.host}:{self.port}")
+		print("Success")
 		while not stop_flag:
 			try:
 				message = socket.recv_string(flags=zmq.NOBLOCK)
