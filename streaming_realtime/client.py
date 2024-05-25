@@ -66,7 +66,8 @@ try:
 			cv2.destroyAllWindows()
 			break
 
-except:
+except Exception as e:
+	print(e)
 	print("Paused")
 finally:
 	receiver.stop_flag = True
