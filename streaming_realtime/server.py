@@ -55,13 +55,12 @@ sender = ServerMsgSender()
 solver = ModelSolver()
 while True:
     image = receiver.recvImg()
-    # cv2.imshow('Received Image', image)
     label = solver.solve(image)
+    #time delay
+    time.sleep(0.1)
+    cv2.imshow('Received Image', image)
     if label:
         sender.send(label)
-    # sender.send("Collected")
-    # print("Collected")
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-# cv2.destroyAllWindows()
