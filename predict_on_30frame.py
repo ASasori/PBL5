@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 import copy
 import json
-from models.model_train_10.classes import  load_model
+from models.model_train_11.classes import  load_model
 model = load_model()
 
 mp_holistic = mp.solutions.holistic 
