@@ -175,11 +175,13 @@ class ModelSolver:
             self.draw_landmarks(image=image,results=results)
             self.last = copy.deepcopy(results)
             self.sequence.append(keypoints)
-            cv2.imshow("FullScreen", image)
-            if cv2.waitKey(20) & 0xFF == ord('q'):
-                break
+            # cv2.imshow("FullScreen", image)
+            # if cv2.waitKey(20) & 0xFF == ord('q'):
+            #     break
         cv2.destroyAllWindows()
-        res = self.model.predict(np.array([self.sequence]))[0]
+        sequence = np.array(sequence)
+        sequence = np.hstack((sequence[:,:92], sequence[:,132:]))
+        res = self.model.predict(np.expand_dims(sequence, axis=0))[0]
         return self.actions[np.argmax(res)]
 
     def __del__(self):
