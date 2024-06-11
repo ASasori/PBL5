@@ -58,8 +58,18 @@ start_flag = True
 cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_BUFFERSIZE,1)
 cap.set(cv2.CAP_PROP_FPS, 15)
+
+from gpiozero import Button
+button = Button(21)
+cv2.namedWindow("FullScreen", cv2.WND_PROP_FULLSCREEN)
+cv2.setWindowProperty("FullScreen", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+print("Waiting for start...")
+img = cv2.imread("Picture1.jpg")
+cv2.imshow("FullScreen", img)
+cv2.waitKey(100)
 try:
 	while cap.isOpened():
+		
 		ret,frame = cap.read()
 		if receiver.message is not None:
 			cv2.putText(frame, f'{receiver.message}', (80,250), cv2.FONT_HERSHEY_SIMPLEX, 3, (0,255, 0), 6, cv2.LINE_AA)
@@ -69,6 +79,9 @@ try:
 			if cv2.waitKey(2000) & 0xFF == ord('q'):
 				cv2.destroyAllWindows()
 				break
+			while not button.is_pressed:
+				cv2.imshow("FullScreen", img)	
+				cv2.waitKey(1000) 
 		else:
 			sender.send(frame,start_flag)
 			if start_flag == True:
