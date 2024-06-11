@@ -58,8 +58,8 @@ try:
 		sender.send(imgs)
 		label = sender.recv()
 		image = imgs[-1]
-		cv2.putText(image, f'Predicted: {label}', (80,150), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255, 0), 4, cv2.LINE_AA)
-		cv2.imshow("Fullscreen", image)
+		cv2.putText(image, f'{label}', (80,150), cv2.FONT_HERSHEY_SIMPLEX, 3, (0,255, 0), 6, cv2.LINE_AA)
+		cv2.imshow("FullScreen", image)
 		print(label)
 		if cv2.waitKey(2000) & 0xFF == ord('q'):
 			break
