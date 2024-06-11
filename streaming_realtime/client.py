@@ -1,10 +1,10 @@
 import cv2
-import zmq,time
+import zmq,time,pickle
 from threading import Thread
 #Hyper parameter
 server_ip = "192.168.1.186"
 
-cap = cv2.VideoCapture(0)
+
 class SenderClient:
 	"""
 		Sender will connect to particular tcp destination, if it's listening
@@ -15,10 +15,11 @@ class SenderClient:
 		self.context = zmq.Context()
 		self.socket = self.context.socket(zmq.PUSH)
 		self.socket.connect(f"tcp://{dest_host}:{port}")
-	def send(self,image):
+	def send(self,image,flag = False):
 		_, buffer = cv2.imencode('.jpg', image)
 		image_bytes = buffer.tobytes()
-		self.socket.send(image_bytes)
+		mes = pickle.dumps((image_bytes,flag))
+		self.socket.send(mes)
 	def __del__(self):
 		self.socket.close()
 
@@ -33,7 +34,7 @@ class ReceiverClient(Thread):
 		super(ReceiverClient,self).__init__()
 		self.host = host
 		self.port = port
-		self.sentence = []
+		self.message = None
 		self.stop_flag = False
 	def run(self):
 		context = zmq.Context()
@@ -42,10 +43,8 @@ class ReceiverClient(Thread):
 		print("Success")
 		while not self.stop_flag:
 			try:
-				message = socket.recv_string(flags=zmq.NOBLOCK)
-				self.sentence.append(message)
-				self.sentence = self.sentence[-5:]
-				print(f"Server: {message}")
+				self.message = socket.recv_string(flags=zmq.NOBLOCK)
+				print(f"Server: {self.message}")
 			except:
 				time.sleep(0.1)
 		socket.close()
@@ -54,17 +53,30 @@ class ReceiverClient(Thread):
 receiver = ReceiverClient()
 receiver.start()
 sender = SenderClient()
+start_flag = True
+
+cap = cv2.VideoCapture(0)
+cap.set(cv2.CAP_PROP_BUFFERSIZE,1)
+cap.set(cv2.CAP_PROP_FPS, 15)
 try:
 	while cap.isOpened():
 		ret,frame = cap.read()
-		sender.send(frame)
-		cv2.rectangle(frame, (0,0), (640, 40), (245, 117, 16), -1)
-		cv2.putText(frame, ' '.join(receiver.sentence), (3,30), 
-						cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
-		cv2.imshow("Fullscreen",frame)
-		if cv2.waitKey(10) & 0xFF == ord('q'):
-			cv2.destroyAllWindows()
-			break
+		if receiver.message is not None:
+			cv2.putText(frame, f'{receiver.message}', (80,250), cv2.FONT_HERSHEY_SIMPLEX, 3, (0,255, 0), 6, cv2.LINE_AA)
+			cv2.imshow("FullScreen", frame)
+			receiver.message = None
+			start_flag = True
+			if cv2.waitKey(2000) & 0xFF == ord('q'):
+				cv2.destroyAllWindows()
+				break
+		else:
+			sender.send(frame,start_flag)
+			if start_flag == True:
+				start_flag = False
+			cv2.imshow("FullScreen",frame)
+			if cv2.waitKey(10) & 0xFF == ord('q'):
+				cv2.destroyAllWindows()
+				break
 
 except Exception as e:
 	print(e)

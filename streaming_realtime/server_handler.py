@@ -1,8 +1,8 @@
-import zmq,cv2,sys,os,json,numpy as np,copy,csv,imagezmq
+import cv2,sys,os,json,numpy as np,copy
 from time import sleep
 import mediapipe as mp
 sys.path.append(os.path.abspath("./"))
-from models.model_train_8.classes import load_model
+from models.model_train_13.classes import load_model
 
 
 class ModelSolver:
@@ -74,7 +74,7 @@ class ModelSolver:
             for _ in range(21):
                 c+=1
         return results
-
+    
     def normalize_keypoint(self,res,img=None):
         #normalize keypoint
         x1,y1,x2,y2 = res[11][0]*self.width,res[11][1]*self.height,res[12][0]*self.width,res[12][1]*self.height
@@ -135,36 +135,46 @@ class ModelSolver:
         self.update_mpresult(res,result,last)
         return np.concatenate([x for x in res])
     
+    def reset_sequence(self):
+        self.sequence = []
+        self.last = None
+
     def solve(self,image):
-        # append image, return None or label
-        self.count+=1
+        # append image, return None or labe
         frame, results = self.mediapipe_detection(image, self.holistic)
         keypoints = self.extract_keypoints_flatten(results,self.last)
+        # self.draw_landmarks(image=image,results=results)
         self.last = copy.deepcopy(results)
         self.sequence.append(keypoints)
-        self.sequence = self.sequence[-self.num_frame:]
-        ret = None
-        if self.delay!=0:
-            self.delay-=1
-        elif self.delay ==0 and len(self.sequence)>=self.num_frame and self.count%5==0:
-            res = self.model.predict(np.expand_dims(self.sequence, axis=0))[0]
-            self.predictions.append(np.argmax(res))
-            print(f"Predicted {self.actions[np.argmax(res)]}")
-            self.predictions = self.predictions[-5:]
-            if np.unique(self.predictions)[0]==np.argmax(res):
-                if res[np.argmax(res)] > self.threshold:
-                    if len(self.sentence)>0:
-                        if self.actions[np.argmax(res)] != self.sentence[-1]:
-                            self.sentence.append(self.actions[np.argmax(res)])
-                            ret = self.sentence[-1]
-                            self.delay = 30
-                    else:
-                        self.sentence.append(self.actions[np.argmax(res)])
-                        ret = self.sentence[-1]
-                        self.delay =30
-            if len(self.sentence) > 2: 
-                self.sentence = self.sentence[-2:]
-        return ret
+        # print(len(self.sequence))
+        cv2.imshow("FullScreen", image)
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            return None
+        if len(self.sequence)>=self.num_frame:
+            sequ = np.array(self.sequence)
+            sequ = np.hstack((sequ[:,:92], sequ[:,132:]))
+            res = self.model.predict(np.expand_dims(sequ, axis=0))[0]
+            self.reset_sequence()
+            return self.actions[np.argmax(res)]
+        return None 
     
+    def solve_on_30_frames(self,images):
+        sequence = []
+        self.last = None
+        for image in images:
+            frame, results = self.mediapipe_detection(image, self.holistic)
+            keypoints = self.extract_keypoints_flatten(results,self.last)
+            self.draw_landmarks(image=image,results=results)
+            self.last = copy.deepcopy(results)
+            sequence.append(keypoints)
+            cv2.imshow("FullScreen", image)
+            if cv2.waitKey(1) & 0xFF == ord('q'):
+                break
+        cv2.destroyAllWindows()
+        sequence = np.array(sequence)
+        sequence = np.hstack((sequence[:,:92], sequence[:,132:]))
+        res = self.model.predict(np.expand_dims(sequence, axis=0))[0]
+        return self.actions[np.argmax(res)]
+
     def __del__(self):
         pass

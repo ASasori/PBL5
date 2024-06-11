@@ -1,5 +1,5 @@
 import cv2
-import zmq,time,sys,os
+import zmq,time,sys,os,pickle
 import numpy as np
 from threading import Thread,Event
 sys.path.append(os.path.abspath("./"))
@@ -15,6 +15,7 @@ class ServerReceiver:
         self.port = port
         self._stop = False
         self.image = None
+        self.start = False
         #collector socket
         self.context = zmq.Context()
         self.socket = self.context.socket(zmq.PULL)
@@ -27,11 +28,17 @@ class ServerReceiver:
     def _run(self):
         # a loop always waiting for 
         while not self._stop:
-            image_bytes = self.socket.recv()
+            mes = self.socket.recv()
+            image_bytes,flag = pickle.loads(mes)
+            if flag:
+                self.start = True
+                continue
             np_arr = np.frombuffer(image_bytes,np.uint8)
             self.image = cv2.imdecode(np_arr,cv2.IMREAD_COLOR)
             self.data_ready.set()
     def recvImg(self):
+        if not self.start:
+            return None
         flag = self.data_ready.wait()
         self.data_ready.clear()
         return self.image
@@ -55,12 +62,11 @@ sender = ServerMsgSender()
 solver = ModelSolver()
 while True:
     image = receiver.recvImg()
+    if image is None:
+        continue
     label = solver.solve(image)
-    #time delay
-    time.sleep(0.1)
-    cv2.imshow('Received Image', image)
     if label:
+        print("Sending label: ",label)
         sender.send(label)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+        receiver.start = False
 

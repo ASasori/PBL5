@@ -2,7 +2,7 @@ import cv2,sys,os,json,numpy as np,copy
 from time import sleep
 import mediapipe as mp
 sys.path.append(os.path.abspath("./"))
-from models.model_train_12.classes import load_model
+from models.model_train_13.classes import load_model
 
 
 class ModelSolver:
@@ -167,17 +167,17 @@ class ModelSolver:
         return ret
     
     def solve_on_30_frames(self,images):
-        self.sequence = []
+        sequence = []
         self.last = None
         for image in images:
             frame, results = self.mediapipe_detection(image, self.holistic)
             keypoints = self.extract_keypoints_flatten(results,self.last)
             self.draw_landmarks(image=image,results=results)
             self.last = copy.deepcopy(results)
-            self.sequence.append(keypoints)
-            # cv2.imshow("FullScreen", image)
-            # if cv2.waitKey(20) & 0xFF == ord('q'):
-            #     break
+            sequence.append(keypoints)
+            cv2.imshow("FullScreen", image)
+            if cv2.waitKey(20) & 0xFF == ord('q'):
+                break
         cv2.destroyAllWindows()
         sequence = np.array(sequence)
         sequence = np.hstack((sequence[:,:92], sequence[:,132:]))
