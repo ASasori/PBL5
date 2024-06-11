@@ -4,7 +4,7 @@ from threading import Thread
 import numpy as np
 import pickle
 #Hyper parameter
-server_ip = "192.168.1.186"
+server_ip = "192.168.0.106"
 
 cap = cv2.VideoCapture(0)
 
@@ -36,7 +36,7 @@ try:
 			ret,frame = cap.read()
 			imgs.append(frame)
 			cv2.imshow("Fullscreen",frame)
-			if cv2.waitKey(50) & 0xFF == ord('q'):
+			if cv2.waitKey(1) & 0xFF == ord('q'):
 				cv2.destroyAllWindows()
 				break
 		sender.send(imgs)

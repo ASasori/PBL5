@@ -173,7 +173,7 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
             sequence = []
             continue
         cv2.imshow("FullScreen", image)
-        if cv2.waitKey(1) & 0xFF == ord('q'):
+        if cv2.waitKey(20) & 0xFF == ord('q'):
             break
     cap.release()
     cv2.destroyAllWindows()

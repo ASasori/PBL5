@@ -1,8 +1,8 @@
-import zmq,cv2,sys,os,json,numpy as np,copy,csv,imagezmq
+import cv2,sys,os,json,numpy as np,copy
 from time import sleep
 import mediapipe as mp
 sys.path.append(os.path.abspath("./"))
-from models.model_train_11.classes import load_model
+from models.model_train_12.classes import load_model
 
 
 class ModelSolver:
@@ -74,7 +74,7 @@ class ModelSolver:
             for _ in range(21):
                 c+=1
         return results
-
+    
     def normalize_keypoint(self,res,img=None):
         #normalize keypoint
         x1,y1,x2,y2 = res[11][0]*self.width,res[11][1]*self.height,res[12][0]*self.width,res[12][1]*self.height
@@ -168,11 +168,17 @@ class ModelSolver:
     
     def solve_on_30_frames(self,images):
         self.sequence = []
+        self.last = None
         for image in images:
             frame, results = self.mediapipe_detection(image, self.holistic)
             keypoints = self.extract_keypoints_flatten(results,self.last)
+            self.draw_landmarks(image=image,results=results)
             self.last = copy.deepcopy(results)
             self.sequence.append(keypoints)
+            cv2.imshow("FullScreen", image)
+            if cv2.waitKey(20) & 0xFF == ord('q'):
+                break
+        cv2.destroyAllWindows()
         res = self.model.predict(np.array([self.sequence]))[0]
         return self.actions[np.argmax(res)]
 
